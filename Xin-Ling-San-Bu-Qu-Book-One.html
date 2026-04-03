@@ -1,0 +1,3650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>心灵三部曲 · 词汇</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+<meta name="description" content="本词汇手册专为中低级英语学习者设计，收录了与沙漠、朝圣、命运、爱和蜕变等主题相关的140余个核心词汇。每个词条包含IPA音标、词性、英中双语释义（中文部分仅使用汉字及中文标点），以及两个原创例句。第一个例句自然日常，清晰展示词义；第二个例句紧扣沙漠之旅、天命追寻、预兆解读等主题，语言自然流畅，帮助学习者在语境中深入理解词汇，同时避免直接引用任何受版权保护的原文。">
+<meta name="theme-color" content="#06131a">
+<style>
+:root {
+  --bg:       #06131a;
+  --panel:    #0b1b24;
+  --panel2:   #0e2230;
+  --stroke:   #7ad0e0;
+  --text:     #e7fbff;
+  --muted:    #9fd6df;
+  --muted2:   #4a6e78;
+  --bad:      #ff5c7a;
+  --good:     #6ef7c8;
+  --gold:     #f0c040;
+  --gold2:    #ffe080;
+  --s35:      rgba(122,208,224,.35);
+  --s60:      rgba(122,208,224,.60);
+  --s20:      rgba(122,208,224,.20);
+  --o15:      rgba(0,0,0,.15);
+  --o25:      rgba(0,0,0,.25);
+  --panel-a:  rgba(11,27,36,.90);
+  --good15:   rgba(110,247,200,.15);
+  --good60:   rgba(110,247,200,.60);
+  --bad12:    rgba(255,92,122,.12);
+  --bad55:    rgba(255,92,122,.55);
+  --gold10:   rgba(240,192,64,.10);
+  --gold50:   rgba(240,192,64,.50);
+}
+*, *::before, *::after { box-sizing: border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: radial-gradient(900px 600px at 50% 0%, var(--panel2) 0%, var(--bg) 65%);
+  color: var(--text);
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+button { font-family: inherit; color: var(--text); cursor: pointer; }
+.wrapper { max-width: 680px; margin: 0 auto; padding: 0 14px; }
+.app-header {
+  text-align: center;
+  padding: 32px 10px 22px;
+  border-bottom: 1px solid var(--s20);
+}
+.app-header h1 {
+  font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+  font-size: clamp(2rem, 7vw, 2.8rem);
+  font-weight: 700;
+  color: var(--good);
+  letter-spacing: .01em;
+  text-shadow: 0 0 30px rgba(110,247,200,.25);
+  line-height: 1.15;
+}
+.app-header .tagline {
+  margin-top: 8px;
+  font-size: clamp(0.85rem, 3vw, 1rem);
+  color: var(--muted);
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.app-header .book-credit {
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: var(--muted2);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.header-star-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.header-badge {
+  background: var(--panel-a);
+  border: 1px solid var(--s35);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.header-badge:hover { background: rgba(122,208,224,.08); border-color: var(--s60); }
+.header-badge.active { background: var(--good15); border-color: var(--good60); color: var(--good); }
+.group-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 18px;
+  background: var(--panel);
+  border: 1px solid var(--s35);
+  border-radius: 16px;
+  padding: 10px 14px;
+}
+.group-nav-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  flex: 1;
+}
+.group-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--muted2);
+  font-weight: 700;
+}
+.group-num {
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: var(--good);
+  letter-spacing: .02em;
+}
+.group-dots {
+  display: flex;
+  gap: 5px;
+  margin-top: 3px;
+}
+.group-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--muted2);
+  transition: background .2s, transform .2s;
+}
+.group-dot.active { background: var(--good); transform: scale(1.3); }
+.group-dot.done { background: var(--s60); }
+.nav-pill {
+  background: rgba(122,208,224,.08);
+  border: 1px solid var(--s35);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--muted);
+  transition: all .15s;
+  white-space: nowrap;
+}
+.nav-pill:hover:not(:disabled) { background: rgba(122,208,224,.15); border-color: var(--s60); color: var(--text); }
+.nav-pill:disabled { opacity: .35; pointer-events: none; }
+.word-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 0 2px;
+}
+.word-nav-center {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  justify-content: center;
+}
+.word-counter {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+.word-counter span { color: var(--text); }
+.icon-btn {
+  background: rgba(122,208,224,.08);
+  border: 1px solid var(--s35);
+  border-radius: 50%;
+  width: 36px; height: 36px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+  transition: all .15s;
+  color: var(--muted);
+}
+.icon-btn:hover { background: rgba(122,208,224,.15); border-color: var(--s60); color: var(--text); }
+.icon-btn.starred { color: var(--gold); border-color: var(--gold50); background: var(--gold10); }
+.icon-btn:disabled { opacity: .3; pointer-events: none; }
+.word-card {
+  margin-top: 10px;
+  background: linear-gradient(160deg, rgba(14,34,48,.85), rgba(11,27,36,.95));
+  border: 1px solid var(--s35);
+  border-radius: 22px;
+  overflow: hidden;
+  transition: border-color .2s;
+}
+.word-card-top {
+  padding: 20px 20px 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid var(--s20);
+}
+.word-left { display: flex; flex-direction: column; gap: 4px; }
+.word-display {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: clamp(1.7rem, 6vw, 2.2rem);
+  font-weight: 900;
+  color: var(--gold);
+  letter-spacing: .02em;
+  line-height: 1;
+  text-shadow: 0 0 20px rgba(240,192,64,.2);
+}
+.pron-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pron-text {
+  font-size: 1.1rem;
+  color: var(--muted);
+  font-weight: 500;
+  letter-spacing: .03em;
+}
+.speak-btn {
+  background: var(--good15);
+  border: 1px solid var(--good60);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--good);
+  transition: all .15s;
+}
+.speak-btn:hover { background: rgba(110,247,200,.25); }
+.chapter-badge {
+  background: rgba(122,208,224,.08);
+  border: 1px solid var(--s35);
+  border-radius: 8px;
+  padding: 4px 9px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+.definition-block {
+  padding: 14px 20px 16px;
+  border-bottom: 1px solid var(--s20);
+}
+.def-en {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(231,251,255,.9);
+}
+.def-zh {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-top: 4px;
+  font-weight: 500;
+}
+.sentence-tab-row {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--s20);
+}
+.sent-tab {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--muted2);
+  transition: all .15s;
+  text-align: center;
+}
+.sent-tab:hover { color: var(--muted); background: rgba(122,208,224,.04); }
+.sent-tab.active {
+  color: var(--good);
+  border-bottom-color: var(--good);
+  background: rgba(110,247,200,.04);
+}
+.sentence-content {
+  padding: 18px 20px 20px;
+}
+.sent-en {
+  font-family: Georgia, 'Times New Roman', 'Songti SC', serif;
+  font-size: clamp(1.08rem, 3.5vw, 1.18rem);
+  line-height: 1.85;
+  color: rgba(231,251,255,.88);
+  font-style: italic;
+}
+.sent-zh {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--muted);
+  margin-top: 12px;
+  font-weight: 400;
+  padding-top: 12px;
+  border-top: 1px solid var(--s20);
+}
+.sent-en .hl {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--gold2);
+  background: rgba(240,192,64,.08);
+  border-radius: 3px;
+  padding: 0 2px;
+}
+.sent-source {
+  margin-top: 10px;
+  font-size: 0.7rem;
+  color: var(--muted2);
+  text-align: right;
+  letter-spacing: .04em;
+}
+.quiz-phase-label {
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted2);
+  margin-bottom: 10px;
+}
+.quiz-section {
+  margin-top: 14px;
+  background: var(--panel);
+  border: 1px solid var(--s35);
+  border-radius: 18px;
+  overflow: hidden;
+}
+.quiz-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  cursor: pointer;
+  user-select: none;
+  transition: background .15s;
+}
+.quiz-header:hover { background: rgba(122,208,224,.05); }
+.quiz-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.quiz-title {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--text);
+}
+.quiz-subtitle {
+  font-size: 0.75rem;
+  color: var(--muted2);
+  margin-top: 1px;
+}
+.quiz-score-badge {
+  background: var(--good15);
+  border: 1px solid var(--good60);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--good);
+  display: none;
+}
+.quiz-toggle-icon { font-size: 0.85rem; color: var(--muted2); transition: transform .2s; }
+.quiz-toggle-icon.open { transform: rotate(180deg); }
+.quiz-body {
+  display: none;
+  padding: 0 18px 18px;
+  border-top: 1px solid var(--s20);
+}
+.quiz-body.open { display: block; }
+.quiz-progress-bar {
+  height: 4px;
+  background: rgba(122,208,224,.12);
+  border-radius: 999px;
+  margin: 14px 0 16px;
+  overflow: hidden;
+}
+.quiz-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--good), #4edfc9);
+  border-radius: 999px;
+  transition: width .3s ease;
+}
+.quiz-q-num {
+  font-size: 0.75rem;
+  color: var(--muted2);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 10px;
+}
+.quiz-sentence {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: clamp(1.05rem, 3vw, 1.15rem);
+  line-height: 1.8;
+  color: rgba(231,251,255,.9);
+  background: rgba(122,208,224,.05);
+  border: 1px solid var(--s20);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+.blank { color: var(--gold); font-style: normal; font-weight: 700; letter-spacing: .1em; }
+.quiz-choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.choice-btn {
+  background: rgba(122,208,224,.06);
+  border: 1px solid var(--s35);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  text-align: left;
+  transition: all .15s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.choice-btn:hover:not(:disabled) { background: rgba(122,208,224,.12); border-color: var(--s60); }
+.choice-btn .choice-label {
+  background: var(--s35);
+  border-radius: 4px;
+  width: 20px; height: 20px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+.choice-btn.correct { background: var(--good15); border-color: var(--good60); color: var(--good); }
+.choice-btn.wrong   { background: var(--bad12);  border-color: var(--bad55);  color: var(--bad); }
+.choice-btn:disabled { pointer-events: none; opacity: .7; }
+.quiz-feedback {
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: none;
+}
+.quiz-feedback.correct-fb { background: var(--good15); color: var(--good); border: 1px solid var(--good60); }
+.quiz-feedback.wrong-fb   { background: var(--bad12);  color: var(--bad);  border: 1px solid var(--bad55); }
+.quiz-next-btn {
+  background: rgba(122,208,224,.1);
+  border: 1px solid var(--s60);
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text);
+  display: none;
+  transition: background .15s;
+}
+.quiz-next-btn:hover { background: rgba(122,208,224,.18); }
+.quiz-result {
+  display: none;
+  text-align: center;
+  padding: 16px 0 4px;
+}
+.quiz-result-score {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--good);
+  line-height: 1;
+}
+.quiz-result-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 4px;
+  margin-bottom: 14px;
+}
+.quiz-result-btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.quiz-retry-btn {
+  background: var(--good15);
+  border: 1px solid var(--good60);
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--good);
+  transition: background .15s;
+}
+.quiz-retry-btn:hover { background: rgba(110,247,200,.25); }
+.quiz-start-area {
+  padding: 16px 0 4px;
+  text-align: center;
+}
+.quiz-start-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.quiz-start-btn {
+  background: var(--good15);
+  border: 1px solid var(--good60);
+  border-radius: 999px;
+  padding: 10px 28px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--good);
+  transition: background .15s;
+}
+.quiz-start-btn:hover { background: rgba(110,247,200,.25); }
+.quiz-skip-btn {
+  background: none;
+  border: none;
+  color: var(--muted2);
+  font-size: 0.78rem;
+  margin-left: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.starred-section {
+  margin-top: 14px;
+  background: var(--panel);
+  border: 1px solid var(--s35);
+  border-radius: 18px;
+  overflow: hidden;
+}
+.starred-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  cursor: pointer;
+  user-select: none;
+  transition: background .15s;
+}
+.starred-header:hover { background: rgba(240,192,64,.04); }
+.starred-header-left { display: flex; align-items: center; gap: 10px; }
+.starred-title { font-size: 0.9rem; font-weight: 800; color: var(--text); }
+.starred-count {
+  background: var(--gold10);
+  border: 1px solid var(--gold50);
+  border-radius: 999px;
+  padding: 2px 9px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+.starred-body { display: none; padding: 0 18px 18px; border-top: 1px solid var(--s20); }
+.starred-body.open { display: block; }
+.starred-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+}
+.starred-chip {
+  background: var(--gold10);
+  border: 1px solid var(--gold50);
+  border-radius: 999px;
+  padding: 5px 13px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold);
+  cursor: pointer;
+  transition: all .15s;
+}
+.starred-chip:hover { background: rgba(240,192,64,.18); }
+.starred-empty {
+  padding-top: 14px;
+  font-size: 0.85rem;
+  color: var(--muted2);
+  font-style: italic;
+  text-align: center;
+}
+.my-sentences-block {
+  padding: 16px 20px 18px;
+  border-top: 1px solid var(--s20);
+}
+.my-sent-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.my-sent-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--muted);
+  letter-spacing: .02em;
+}
+.my-sent-counter {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted2);
+  background: var(--o25);
+  border: 1px solid var(--s20);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+.my-sent-counter.full { color: var(--gold); border-color: var(--gold50); background: var(--gold10); }
+.my-sent-input-row {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+.my-sent-input {
+  flex: 1;
+  background: rgba(122,208,224,.06);
+  border: 1px solid var(--s35);
+  border-radius: 12px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.88rem;
+  padding: 9px 13px;
+  outline: none;
+  transition: border-color .15s;
+  min-width: 0;
+}
+.my-sent-input:focus { border-color: var(--s60); background: rgba(122,208,224,.09); }
+.my-sent-input::placeholder { color: var(--muted2); }
+.my-sent-save-btn {
+  background: rgba(122,208,224,.1);
+  border: 1px solid var(--s60);
+  border-radius: 12px;
+  padding: 9px 16px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--stroke);
+  white-space: nowrap;
+  transition: background .15s;
+  flex-shrink: 0;
+}
+.my-sent-save-btn:hover { background: rgba(122,208,224,.2); }
+.my-sent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 10px;
+}
+.my-sent-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: rgba(122,208,224,.05);
+  border: 1px solid var(--s20);
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+.my-sent-num {
+  font-size: 0.68rem;
+  font-weight: 900;
+  color: var(--muted2);
+  background: var(--s20);
+  border-radius: 4px;
+  padding: 2px 6px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.my-sent-text {
+  flex: 1;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: rgba(231,251,255,.85);
+}
+.my-sent-del {
+  background: none;
+  border: none;
+  color: var(--muted2);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 3px;
+  flex-shrink: 0;
+  opacity: .6;
+  transition: color .15s, opacity .15s;
+}
+.my-sent-del:hover { color: var(--bad); opacity: 1; }
+.starred-quiz-divider {
+  height: 1px;
+  background: var(--s20);
+  margin: 14px 0;
+}
+.sq-start-area { text-align: center; padding-bottom: 4px; }
+.sq-desc {
+  font-size: 0.82rem;
+  color: var(--muted2);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+.sq-unlock-hint {
+  font-size: 0.75rem;
+  color: var(--muted2);
+  font-style: italic;
+}
+footer {
+  margin-top: 36px;
+  padding: 20px 14px 28px;
+  border-top: 1px solid var(--s20);
+  text-align: center;
+}
+.footer-author {
+  font-size: 0.8rem;
+  color: var(--muted2);
+  line-height: 1.9;
+}
+.footer-author a { color: var(--muted); text-decoration: none; }
+.footer-author a:hover { color: var(--stroke); }
+.footer-quote {
+  margin-top: 12px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--muted2);
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+#toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: rgba(11,27,36,.96);
+  border: 1px solid var(--s60);
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+  white-space: nowrap;
+  z-index: 9999;
+}
+#toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+#toast.gold { border-color: var(--gold50); color: var(--gold); }
+#toast.good { border-color: var(--good60); color: var(--good); }
+@media (max-width: 480px) {
+  .word-card-top { flex-wrap: wrap; }
+  .quiz-choices { grid-template-columns: 1fr; }
+  .group-dots { display: none; }
+  .nav-pill { padding: 7px 12px; font-size: 0.8rem; }
+}
+.synan-block {
+  padding: 10px 20px 14px;
+  border-bottom: 1px solid var(--s20);
+  display: flex; gap: 14px; flex-wrap: wrap;
+}
+.synan-group { flex: 1; min-width: 0; }
+.synan-label {
+  font-size: 0.65rem; font-weight: 900; text-transform: uppercase;
+  letter-spacing: .1em; margin-bottom: 5px;
+}
+.synan-label.syn { color: var(--good); }
+.synan-label.ant { color: var(--bad); }
+.synan-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.synan-chip {
+  font-size: 0.75rem; font-weight: 600; padding: 3px 9px;
+  border-radius: 999px;
+}
+.synan-chip.syn { background: rgba(110,247,200,.1); border: 1px solid rgba(110,247,200,.35); color: var(--good); }
+.synan-chip.ant { background: rgba(255,92,122,.08); border: 1px solid rgba(255,92,122,.3);  color: var(--bad); }
+.spell-content { padding: 18px 20px 22px; }
+.spell-sentence {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: clamp(1.08rem, 3.5vw, 1.18rem);
+  line-height: 1.85;
+  color: rgba(231,251,255,.88);
+  margin-bottom: 18px;
+}
+.spell-sentence .hl { font-style: normal; font-weight: 700; color: var(--gold2); }
+.spell-boxes {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  justify-content: center; margin-bottom: 18px;
+}
+.spell-box {
+  width: 40px; height: 46px;
+  border: 2px solid var(--s35);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem; font-weight: 800; text-transform: lowercase;
+  background: rgba(122,208,224,.05);
+  transition: border-color .15s, background .15s;
+  flex-shrink: 0;
+}
+.spell-box.filled   { border-color: var(--s60); background: rgba(122,208,224,.1); color: var(--text); }
+.spell-box.correct  { border-color: var(--good); background: rgba(110,247,200,.15); color: var(--good); }
+.spell-box.wrong    { border-color: var(--bad);  background: rgba(255,92,122,.12);  color: var(--bad); }
+.spell-box.cursor   { border-color: var(--gold); animation: spell-blink .9s ease infinite; }
+@keyframes spell-blink { 0%,100% { border-color: var(--gold); } 50% { border-color: transparent; } }
+.spell-input-row {
+  display: flex; gap: 8px; align-items: center; justify-content: center; flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.spell-input {
+  background: rgba(122,208,224,.06); border: 1px solid var(--s35);
+  border-radius: 12px; color: var(--text); font-family: inherit;
+  font-size: 1rem; font-weight: 700; padding: 9px 14px; outline: none;
+  width: 180px; text-align: center; letter-spacing: .12em;
+  transition: border-color .15s;
+}
+.spell-input:focus { border-color: var(--s60); }
+.spell-input::placeholder { color: var(--muted2); font-weight: 400; letter-spacing: 0; }
+.spell-check-btn {
+  background: var(--good15); border: 1px solid var(--good60);
+  border-radius: 12px; padding: 9px 18px;
+  font-size: .88rem; font-weight: 800; color: var(--good);
+  transition: background .15s;
+}
+.spell-check-btn:hover { background: rgba(110,247,200,.25); }
+.spell-reveal-btn {
+  background: none; border: none; color: var(--muted2);
+  font-size: .78rem; text-decoration: underline; cursor: pointer;
+  display: block; text-align: center; margin-top: 4px;
+}
+.spell-feedback {
+  text-align: center; font-size: .9rem; font-weight: 800;
+  padding: 10px; border-radius: 10px; margin-top: 4px; display: none;
+}
+.spell-feedback.ok  { background: var(--good15); color: var(--good); border: 1px solid var(--good60); }
+.spell-feedback.err { background: var(--bad12);  color: var(--bad);  border: 1px solid var(--bad55); }
+.spell-hint-row { text-align: center; margin-bottom: 10px; }
+.spell-hint-text { font-size: .78rem; color: var(--muted2); font-style: italic; }
+
+/* ── Print button ─────────────────────────────────────── */
+.print-btn { margin-left: 8px; }
+.header-star-row { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; }
+
+/* ── Print styles ─────────────────────────────────────── */
+@media print {
+  body * { visibility: hidden; }
+  #printContainer, #printContainer * { visibility: visible; }
+  #printContainer { display: block !important; position: absolute; inset: 0; background: white; }
+}
+
+
+.flashcard-container {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+.flashcard-container.active {
+  display: block;
+}
+.flashcard-flip {
+  perspective: 1000px;
+  margin-bottom: 24px;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  background: linear-gradient(160deg, rgba(14,34,48,.85), rgba(11,27,36,.95));
+  border: 1px solid rgba(122,208,224,.3);
+  border-radius: 18px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .3s ease;
+  transform-style: preserve-3d;
+}
+.flashcard-inner:hover {
+  border-color: rgba(122,208,224,.6);
+  background: linear-gradient(160deg, rgba(14,34,48,.9), rgba(11,27,36,1));
+}
+.flashcard-label {
+  font-size: 0.72rem;
+  color: var(--muted2);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.flashcard-content {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--good);
+  line-height: 1.6;
+  text-shadow: 0 0 20px rgba(110,247,200,.15);
+}
+.flashcard-word-main {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--good);
+  margin-bottom: 8px;
+  text-shadow: 0 0 20px rgba(110,247,200,.15);
+}
+.flashcard-pron {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 500;
+  font-style: italic;
+  margin: 6px 0;
+}
+.flashcard-pos-display {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #6ef7c8;
+  background: rgba(110, 247, 200, 0.1);
+  border: 1px solid rgba(110, 247, 200, 0.3);
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 6px 0;
+  min-height: 20px;
+}
+.flashcard-hear {
+  background: var(--good15);
+  border: 1px solid var(--good60);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--good);
+  cursor: pointer;
+  transition: all .15s;
+  margin-left: 8px;
+  display: inline-block;
+}
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: rgba(110, 247, 200, 0.15);
+  border: 1px solid rgba(110, 247, 200, 0.4);
+  color: #6ef7c8;
+  margin: 0 4px;
+}
+.badge-pos {
+  display: inline-block !important;
+  background: rgba(110, 247, 200, 0.15) !important;
+  border: 1px solid rgba(110, 247, 200, 0.4) !important;
+  color: #6ef7c8 !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  margin: 0 4px !important;
+}
+.flashcard-hear:hover {
+  background: var(--good25);
+  border-color: var(--good);
+}
+.flashcard-pos {
+  display: inline-block;
+  background: rgba(122,208,224,.15);
+  border: 1px solid rgba(122,208,224,.4);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+  margin-right: 8px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.flashcard-def-en {
+  font-size: 1.1rem;
+  color: rgba(231,251,255,.9);
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+.flashcard-def-zh {
+  font-size: 1.05rem;
+  color: var(--muted);
+  font-weight: 500;
+  line-height: 1.7;
+}
+.flashcard-hint {
+  font-size: 0.75rem;
+  color: var(--muted2);
+  margin-top: 12px;
+  font-style: italic;
+}
+.flashcard-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.flashcard-progress {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 700;
+  min-width: 60px;
+}
+.flashcard-btn {
+  background: rgba(122,208,224,.1);
+  border: 1px solid var(--s60);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text);
+  cursor: pointer;
+  transition: all .15s;
+}
+.flashcard-btn:hover:not(:disabled) {
+  background: rgba(122,208,224,.2);
+  border-color: var(--s60);
+}
+.flashcard-btn:disabled {
+  opacity: .35;
+  cursor: not-allowed;
+}
+
+</style>
+</head>
+<body>
+
+<div id="toast"></div>
+
+<div class="wrapper">
+  <div class="app-header">
+    <h1>心灵三部曲 · 第一部 词汇手册</h1>
+    <div class="tagline">追寻天命，读懂预兆，聆听世界之魂。</div>
+    <div class="book-credit">109 words &middot; 109 sentences &middot; Daniel Wang's 心灵三部曲 第一部：沙漠之旅者的词汇书</div>
+    <div class="header-star-row">
+      <button class="header-badge" id="starredToggleBtn">⭐ Starred Words (<span id="starredCountHeader">0</span>)</button>
+      <button class="header-badge print-btn" id="printBtn" onclick="openPrintModal()">🖨️ Print</button>
+    </div>
+  </div>
+
+  <div class="group-nav">
+    <button class="nav-pill" id="prevGroupBtn">← Prev</button>
+    <div class="group-nav-center">
+      <div class="group-label">Group</div>
+      <div class="group-num" id="groupNumDisplay">1 / 10</div>
+      <div class="group-dots" id="groupDots"></div>
+    </div>
+    <button class="nav-pill" id="nextGroupBtn">Next →</button>
+  </div>
+
+  <div class="word-nav">
+    <button class="nav-pill" id="prevWordBtn">←</button>
+    <div class="word-nav-center">
+      <div class="word-counter">Word <span id="wordNumDisplay">1</span> / <span id="groupSizeDisplay">10</span></div>
+      <button class="icon-btn" id="starBtn" title="Star this word">☆</button>
+      <button class="icon-btn" id="speakBtn" title="Hear pronunciation">🔊</button>
+    </div>
+    <button class="nav-pill" id="nextWordBtn">Next →</button>
+  </div>
+
+  <div class="word-card" id="wordCard">
+    <div class="word-card-top">
+      <div class="word-left">
+        <div class="word-display" id="wordDisplay">—</div>
+        <div class="pron-row">
+          <span class="pron-text" id="pronDisplay">—</span>
+          <button class="speak-btn" id="speakBtn2">🔊 Hear it</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="definition-block">
+      <div class="def-en" id="defEn">—</div>
+      <div class="def-zh" id="defZh">—</div>
+    </div>
+
+    <div class="synan-block" id="synanBlock">
+      <div class="synan-group">
+        <div class="synan-label syn">Synonyms</div>
+        <div class="synan-chips" id="synChips"></div>
+      </div>
+      <div class="synan-group">
+        <div class="synan-label ant">Antonyms</div>
+        <div class="synan-chips" id="antChips"></div>
+      </div>
+    </div>
+
+    <div class="sentence-tab-row">
+      <button class="sent-tab active" id="tabNovel">📖 Source Sentence</button>
+      <button class="sent-tab" id="tabAI">💡 Example</button>
+      <button class="sent-tab" id="tabFlashcard">📇 Flashcard</button>
+    </div>
+
+    <div class="sentence-content" id="sentenceContent">
+      <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+        <div class="sent-en" id="sentEn" style="flex: 1;">—</div>
+        <button id="sentenceHearBtn" style="flex-shrink: 0; padding: 8px 14px; background: rgba(122,208,224,.12); border: 1.5px solid rgba(122,208,224,.4); border-radius: 8px; color: #7AD0E0; cursor: pointer; font-weight: 600; white-space: nowrap; font-size: 0.85rem;" onclick="const e=document.getElementById(\'sentEn\');if(e){let t=e.textContent;if(t&&t!==\'—\'){t=t.replace(/<[^>]*>/g,\'\');if(t.trim())speak(t);}}">🔊 Hear</button>
+      </div>
+      <div class="sent-zh" id="sentZh">—</div>
+      <div class="sent-source" id="sentSource">—</div>
+    </div>
+
+    <div class="flashcard-container" id="flashcardContainer">
+      <div class="flashcard-nav">
+        <button class="flashcard-btn" id="flashPrevBtn" title="Previous card">← Prev</button>
+        <div class="flashcard-progress" id="flashProgress">1 / 10</div>
+        <button class="flashcard-btn" id="flashNextBtn" title="Next card">Next →</button>
+      </div>
+      <div class="flashcard-flip" id="flashFlip">
+        <div class="flashcard-inner" id="flashInner" onclick="toggleFlashcard()">
+          <div class="flashcard-label" id="flashLabel">Word</div>
+          <div class="flashcard-content" id="flashContent">—</div>
+          <div class="flashcard-hint">Tap to reveal</div>
+        </div>
+      </div>
+      <button class="icon-btn" id="flashStarBtn" title="Star this word" style="margin-bottom: 14px;">⭐</button>
+    </div>
+
+    <div class="my-sentences-block">
+      <div class="my-sent-header">
+        <span class="my-sent-title">✍️ My Sentences</span>
+        <span class="my-sent-counter" id="mySentCounter">0 / 3</span>
+      </div>
+      <div class="my-sent-input-row">
+        <input type="text" class="my-sent-input" id="mySentInput"
+          placeholder="Write your own sentence using this word…"
+          autocomplete="off" autocorrect="off" spellcheck="false">
+        <button class="my-sent-save-btn" id="mySentSaveBtn">Save</button>
+      </div>
+      <div class="my-sent-list" id="mySentList"></div>
+    </div>
+  </div>
+
+  <div class="quiz-section" id="quizSection">
+    <div class="quiz-header" id="quizHeader">
+      <div class="quiz-header-left">
+        <div>
+          <div class="quiz-title">📝 Group Quiz</div>
+          <div class="quiz-subtitle" id="quizSubtitle">Part 1: Choose · Part 2: Spell</div>
+        </div>
+        <div class="quiz-score-badge" id="quizScoreBadge">—</div>
+      </div>
+      <div>
+        <span class="quiz-toggle-icon" id="quizToggleIcon">▾</span>
+      </div>
+    </div>
+    <div class="quiz-body" id="quizBody">
+      <div class="quiz-start-area" id="quizStartArea">
+        <div class="quiz-start-desc" id="quizStartDesc">Test yourself on Group 1. Fill in the blanks using words from this group.</div>
+        <button class="quiz-start-btn" id="quizStartBtn">Start Quiz</button>
+        <button class="quiz-skip-btn" id="quizSkipBtn">Skip</button>
+      </div>
+      <div id="quizQuestionArea" style="display:none;">
+        <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill"></div></div>
+        <div class="quiz-q-num" id="quizQNum">Question 1 / 10</div>
+
+        <div id="quizPhase1">
+          <div class="quiz-phase-label">📖 Choose the word — Orwell's sentence</div>
+          <div class="quiz-sentence" id="quizSentence">—</div>
+          <div class="quiz-choices" id="quizChoices"></div>
+          <div class="quiz-feedback" id="quizFeedback"></div>
+        </div>
+
+        <div id="quizPhase2" style="display:none;">
+          <div class="quiz-phase-label">💡 Spell the word — AI example sentence</div>
+          <div class="quiz-sentence" id="qSpellSentence">—</div>
+          <div class="spell-boxes" id="qSpellBoxes"></div>
+          <div class="spell-input-row">
+            <input type="text" class="spell-input" id="qSpellInput"
+              placeholder="type the word…"
+              autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <button class="spell-check-btn" id="qSpellCheckBtn">Check</button>
+          </div>
+          <button class="spell-reveal-btn" id="qSpellRevealBtn">Show answer</button>
+          <div class="quiz-feedback" id="qSpellFeedback"></div>
+        </div>
+
+        <button class="quiz-next-btn" id="quizNextBtn" style="display:none;">Next →</button>
+      </div>
+      <div class="quiz-result" id="quizResult">
+        <div class="quiz-result-score" id="quizResultScore">—</div>
+        <div class="quiz-result-label" id="quizResultLabel">—</div>
+        <div class="quiz-result-btns">
+          <button class="quiz-retry-btn" id="quizRetryBtn">↻ Retry Quiz</button>
+          <button class="quiz-skip-btn" id="quizCloseBtn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="starred-section" id="starredSection">
+    <div class="starred-header" id="starredHeader">
+      <div class="starred-header-left">
+        <div class="starred-title">⭐ Starred Words</div>
+        <div class="starred-count" id="starredCount">0</div>
+      </div>
+      <span class="quiz-toggle-icon" id="starredToggleIcon">▾</span>
+    </div>
+    <div class="starred-body" id="starredBody">
+      <div class="starred-list" id="starredList"></div>
+
+      <div class="starred-quiz-wrap" id="starredQuizWrap">
+        <div class="starred-quiz-divider"></div>
+        <div class="sq-start-area" id="sqStartArea">
+          <div class="sq-desc" id="sqDesc">Star 5 or more words to unlock your personal quiz.</div>
+          <button class="quiz-start-btn" id="sqStartBtn" style="display:none;">⭐ Quiz My Starred Words</button>
+          <div class="sq-unlock-hint" id="sqUnlockHint">(<span id="sqStarredCount">0</span> / 5 starred so far)</div>
+        </div>
+        <div id="sqQuestionArea" style="display:none;">
+          <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="sqProgressFill"></div></div>
+          <div class="quiz-q-num" id="sqQNum">Question 1 / ?</div>
+          <div class="quiz-sentence" id="sqSentence">—</div>
+          <div class="quiz-choices" id="sqChoices"></div>
+          <div class="quiz-feedback" id="sqFeedback"></div>
+          <button class="quiz-next-btn" id="sqNextBtn">Next →</button>
+        </div>
+        <div class="quiz-result" id="sqResult" style="display:none;">
+          <div class="quiz-result-score" id="sqResultScore">—</div>
+          <div class="quiz-result-label" id="sqResultLabel">—</div>
+          <div class="quiz-result-btns">
+            <button class="quiz-retry-btn" id="sqRetryBtn">↻ Retry</button>
+            <button class="quiz-skip-btn" id="sqResetBtn">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-author">Created by Daniel Wang (dwang055@gmail.com) for 心灵三部曲 · 第一部 词汇手册 · For Educational Use · © 2026</div>
+    <div class="footer-quote">“当你真正渴望某样东西时，整个宇宙都会协力助你实现。”<br>— 沙漠古训</div>
+  </footer>
+</div>
+
+<script>
+// ============================================================
+// PASTE YOUR COMPLETE VOCAB ARRAY HERE (ALL 100 WORDS)
+// ============================================================
+// ============================================================
+const BOOK_CONFIG = {
+  "title": "心灵三部曲 · 第一部 词汇手册",
+  "bookName": "心灵三部曲 第一部：沙漠之旅者的词汇书",
+  "author": "Daniel Wang",
+  "year": "2026",
+  "tagline": "追寻天命，读懂预兆，聆听世界之魂。"
+};
+const VOCAB = [
+  {
+    "word": "abandon",
+    "pron": "əˈbæn.dən",
+    "def_en": "To leave someone or something permanently",
+    "def_zh": "抛弃；放弃",
+    "quote_en": "The sailor had to abandon the sinking ship.",
+    "quote_zh": "水手不得不弃船逃生。",
+    "ex_en": "To realise your Personal Legend, you must sometimes abandon the comfort of the familiar.",
+    "ex_zh": "要实现你的天命，有时你必须放弃熟悉的舒适区。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "abashed",
+    "pron": "əˈbæʃt",
+    "def_en": "Embarrassed or ashamed",
+    "def_zh": "尴尬的；羞愧的",
+    "quote_en": "He felt abashed when he realised his mistake.",
+    "quote_zh": "意识到自己的错误时，他感到十分尴尬。",
+    "ex_en": "The boy was abashed by the old king’s wisdom, but he listened anyway.",
+    "ex_zh": "男孩被老国王的智慧弄得羞愧，但他还是认真倾听。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "abrade",
+    "pron": "əˈbreɪd",
+    "def_en": "To wear away by friction",
+    "def_zh": "磨损；擦伤",
+    "quote_en": "Wind and sand can abrade the surface of ancient stones.",
+    "quote_zh": "风沙会磨损古老石头的表面。",
+    "ex_en": "The desert wind abrades the rocks, just as hardship abrades the soul until it shines.",
+    "ex_zh": "沙漠的风磨损岩石，正如苦难打磨灵魂直到它发光。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "alchemist",
+    "pron": "ˈæl.kə.mɪst",
+    "def_en": "A person who practices alchemy, trying to turn ordinary metals into gold",
+    "def_zh": "炼金术士",
+    "quote_en": "The old man in the story was a wise alchemist living in the desert.",
+    "quote_zh": "故事里的老人是一位住在沙漠里的智慧炼金术士。",
+    "ex_en": "An alchemist does not transform lead into gold; he transforms himself into the wind.",
+    "ex_zh": "炼金术士不是把铅变成金，而是把自己变成风。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "astride",
+    "pron": "əˈstraɪd",
+    "def_en": "With a leg on each side of something",
+    "def_zh": "跨坐；骑在…上",
+    "quote_en": "He sat astride the horse, ready to ride into the sunset.",
+    "quote_zh": "他跨坐在马上，准备奔向日落。",
+    "ex_en": "The alchemist sat astride his white horse, a falcon on his shoulder, as if he owned the horizon.",
+    "ex_zh": "炼金术士跨骑在白马上，肩头架着猎鹰，仿佛他是地平线的主人。",
+    "part_of_speech": "preposition"
+  },
+  {
+    "word": "barbarian",
+    "pron": "bɑːrˈber.i.ən",
+    "def_en": "A member of a primitive or uncivilized group",
+    "def_zh": "野蛮人；蛮族",
+    "quote_en": "The ancient Romans called many tribes barbarians.",
+    "quote_zh": "古罗马人把许多部落称为野蛮人。",
+    "ex_en": "In the desert, the boy learned that even a barbarian may have a heart that listens to the wind.",
+    "ex_zh": "在沙漠里，男孩明白即使是野蛮人也可能有一颗倾听风的心。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "betray",
+    "pron": "bɪˈtreɪ",
+    "def_en": "To be disloyal to someone or something",
+    "def_zh": "背叛；出卖",
+    "quote_en": "He would never betray his friends, no matter what.",
+    "quote_zh": "无论如何他都不会背叛朋友。",
+    "ex_en": "Your heart may betray you with fear, but if you listen to it, you will turn that fear into courage.",
+    "ex_zh": "你的心可能会因恐惧而背叛你，但如果你倾听它，你会把恐惧变成勇气。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "capricious",
+    "pron": "kəˈprɪʃ.əs",
+    "def_en": "Sudden and unpredictable change of mood or behavior",
+    "def_zh": "反复无常的；任性的",
+    "quote_en": "The capricious weather made it hard to plan the trip.",
+    "quote_zh": "反复无常的天气让旅行计划变得困难。",
+    "ex_en": "The desert is a capricious lady, but she only tests those who truly seek their treasure.",
+    "ex_zh": "沙漠是位任性的女士，但她只考验那些真正寻找宝藏的人。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "caravan",
+    "pron": "ˈker.ə.væn",
+    "def_en": "A group of people and animals traveling together across a desert",
+    "def_zh": "商队；沙漠旅行队",
+    "quote_en": "The caravan crossed the Sahara with hundreds of camels.",
+    "quote_zh": "商队带着几百头骆驼穿越了撒哈拉沙漠。",
+    "ex_en": "A caravan moves slowly, but every step brings it closer to the oasis – like you to your dream.",
+    "ex_zh": "商队走得很慢，但每一步都让它更接近绿洲——就像你离梦想更近一步。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "chieftain",
+    "pron": "ˈtʃiːf.tən",
+    "def_en": "The leader of a tribe or clan",
+    "def_zh": "酋长；族长",
+    "quote_en": "The chieftain made all the important decisions for his people.",
+    "quote_zh": "酋长为他的族人做所有重要的决定。",
+    "ex_en": "The chieftain listened to the boy’s omen and saved the oasis, proving that wisdom has no age.",
+    "ex_zh": "酋长听从了男孩的预兆并拯救了绿洲，证明了智慧不分年龄。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "coincidence",
+    "pron": "koʊˈɪn.sɪ.dəns",
+    "def_en": "A surprising and unplanned situation where two things happen at the same time",
+    "def_zh": "巧合；凑巧",
+    "quote_en": "It was a coincidence that we both wore the same shirt.",
+    "quote_zh": "我们穿了同样的衬衫，真是巧合。",
+    "ex_en": "There is no such thing as coincidence; it is the language of the world guiding you to your Personal Legend.",
+    "ex_zh": "没有巧合这回事；那是世界之语在引导你走向天命。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "conquistador",
+    "pron": "kɑːnˈkiː.stə.dɔːr",
+    "def_en": "A Spanish conqueror of the Americas in the 16th century",
+    "def_zh": "西班牙征服者",
+    "quote_en": "The conquistadors came to the New World searching for gold.",
+    "quote_zh": "西班牙征服者来到新大陆寻找黄金。",
+    "ex_en": "The boy’s treasure was buried by a conquistador who forgot his own Personal Legend.",
+    "ex_zh": "男孩的宝藏是一位忘记了自己天命的征服者埋下的。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "contemplate",
+    "pron": "ˈkɑːn.təm.pleɪt",
+    "def_en": "To think deeply about something for a long time",
+    "def_zh": "沉思；凝视",
+    "quote_en": "She sat by the window to contemplate her future.",
+    "quote_zh": "她坐在窗边沉思自己的未来。",
+    "ex_en": "Santiago contemplated the desert for hours, and it taught him the Soul of the World.",
+    "ex_zh": "圣地亚哥凝视沙漠几个小时，沙漠教会了他世界之魂。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "counsellor",
+    "pron": "ˈkaʊn.səl.ər",
+    "def_en": "A person who gives advice or guidance",
+    "def_zh": "顾问；辅导员",
+    "quote_en": "The school counsellor helped me choose my subjects.",
+    "quote_zh": "学校辅导员帮我选了课程。",
+    "ex_en": "After saving the oasis, the boy was offered the role of counsellor, but his treasure still called.",
+    "ex_zh": "拯救绿洲后，男孩被聘为顾问，但他的宝藏仍在呼唤。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "crook",
+    "pron": "krʊk",
+    "def_en": "A long stick with a curved end, used by shepherds",
+    "def_zh": "牧羊杖；弯柄杖",
+    "quote_en": "The shepherd used his crook to guide the sheep.",
+    "quote_zh": "牧羊人用他的牧羊杖引导羊群。",
+    "ex_en": "Santiago’s crook was his first tool of power; later, he learned that the heart is an even better guide.",
+    "ex_zh": "圣地亚哥的牧羊杖是他第一个权力工具；后来他明白，心是更好的向导。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "daunting",
+    "pron": "ˈdɔːn.tɪŋ",
+    "def_en": "Scary because it seems difficult or impossible",
+    "def_zh": "令人畏惧的；使人气馁的",
+    "quote_en": "Climbing Mount Everest is a daunting challenge.",
+    "quote_zh": "攀登珠穆朗玛峰是一项令人畏惧的挑战。",
+    "ex_en": "The desert seemed daunting, but every step made it smaller, just as every fear shrinks when you face it.",
+    "ex_zh": "沙漠看似令人畏惧，但每走一步它就更小一点，正如每一种恐惧在面对时都会缩小。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "decipher",
+    "pron": "dɪˈsaɪ.fər",
+    "def_en": "To figure out the meaning of something unclear",
+    "def_zh": "破译；解读",
+    "quote_en": "It took years to decipher the ancient writing.",
+    "quote_zh": "花了很多年才破译了那些古文字。",
+    "ex_en": "The boy had to decipher the omens of the desert, for they were the map to his treasure.",
+    "ex_zh": "男孩必须解读沙漠的预兆，因为它们是他宝藏的地图。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "devout",
+    "pron": "dɪˈvaʊt",
+    "def_en": "Very religious or deeply committed to a belief",
+    "def_zh": "虔诚的；虔敬的",
+    "quote_en": "She is a devout Catholic who goes to church every Sunday.",
+    "quote_zh": "她是个虔诚的天主教徒，每周日都去教堂。",
+    "ex_en": "The crystal merchant was devout, yet he never made his pilgrimage to Mecca; he only dreamed of it.",
+    "ex_zh": "水晶店老板很虔诚，却从未去麦加朝圣；他只是梦想着。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "disembark",
+    "pron": "ˌdɪs.ɪmˈbɑːrk",
+    "def_en": "To leave a ship, aircraft, or vehicle",
+    "def_zh": "下船；下飞机；下车",
+    "quote_en": "Passengers should disembark at the next station.",
+    "quote_zh": "乘客应在下一站下车。",
+    "ex_en": "When Santiago disembarked in Tangier, he entered a new world and a new version of his dream.",
+    "ex_zh": "圣地亚哥在丹吉尔下船时，进入了一个新世界和他梦想的新版本。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "disinter",
+    "pron": "ˌdɪs.ɪnˈtɜːr",
+    "def_en": "To dig up something buried, especially a dead body",
+    "def_zh": "掘出；挖出",
+    "quote_en": "Archaeologists disinterred ancient tools from the site.",
+    "quote_zh": "考古学家从遗址中挖出了古代工具。",
+    "ex_en": "You must have the courage to disinter your dream from the grave of daily routine.",
+    "ex_zh": "你必须鼓起勇气，从日常琐碎的坟墓中挖出你的梦想。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "dismantle",
+    "pron": "dɪsˈmæn.təl",
+    "def_en": "To take apart or break down into pieces",
+    "def_zh": "拆除；拆卸",
+    "quote_en": "The workers had to dismantle the old bridge.",
+    "quote_zh": "工人们不得不拆除旧桥。",
+    "ex_en": "The boy dismantled his old life as a shepherd to build a new one as a seeker of treasure.",
+    "ex_zh": "男孩拆除了牧羊人的旧生活，建立了寻宝者的新生活。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "divination",
+    "pron": "ˌdɪv.ɪˈneɪ.ʃən",
+    "def_en": "The practice of predicting the future or finding hidden knowledge",
+    "def_zh": "占卜；预言",
+    "quote_en": "Ancient people used divination to ask the gods for advice.",
+    "quote_zh": "古人用占卜向神灵求教。",
+    "ex_en": "Urim and Thummim were tools of divination, but the boy learned that the best oracle is your own heart.",
+    "ex_zh": "乌陵和土明是占卜工具，但男孩明白了最好的神谕是自己的心。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "dungeon",
+    "pron": "ˈdʌn.dʒən",
+    "def_en": "A dark underground prison",
+    "def_zh": "地牢；土牢",
+    "quote_en": "The king threw the thief into the dungeon.",
+    "quote_zh": "国王把小偷扔进了地牢。",
+    "ex_en": "Joseph was thrown into a dungeon because of a dream, yet that same dream later saved Egypt.",
+    "ex_zh": "约瑟因一个梦被投入地牢，而正是那个梦后来拯救了埃及。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "elated",
+    "pron": "ɪˈleɪ.tɪd",
+    "def_en": "Extremely happy and excited",
+    "def_zh": "兴高采烈的；得意洋洋的",
+    "quote_en": "She was elated when she passed the exam.",
+    "quote_zh": "她通过考试时兴高采烈。",
+    "ex_en": "The boy was elated not because he found gold, but because he had listened to his heart.",
+    "ex_zh": "男孩兴高采烈不是因为他找到了金子，而是因为他听从了自己的心。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "elixir",
+    "pron": "ɪˈlɪk.sər",
+    "def_en": "A magical liquid that can cure illness or give eternal life",
+    "def_zh": "灵丹妙药；长生不老药",
+    "quote_en": "In stories, the elixir of life can make you live forever.",
+    "quote_zh": "在故事里，长生不老药能让人永生。",
+    "ex_en": "The Elixir of Life is not a drink; it is the joy you feel when you are living your Personal Legend.",
+    "ex_zh": "长生不老药不是喝的东西；而是你在实现天命时感受到的喜悦。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "emerald",
+    "pron": "ˈem.ər.əld",
+    "def_en": "A bright green precious stone",
+    "def_zh": "祖母绿；绿宝石",
+    "quote_en": "She wore a necklace with a large emerald.",
+    "quote_zh": "她戴着一条镶有大颗祖母绿的项链。",
+    "ex_en": "The Emerald Tablet held the secrets of the universe in just a few lines.",
+    "ex_zh": "翡翠石板只用几行字就包含了宇宙的秘密。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "encampment",
+    "pron": "ɪnˈkæmp.mənt",
+    "def_en": "A temporary camp where people live in tents",
+    "def_zh": "营地；临时驻扎地",
+    "quote_en": "The soldiers set up an encampment by the river.",
+    "quote_zh": "士兵们在河边扎营。",
+    "ex_en": "At the desert encampment, the boy learned that every person has a Personal Legend, even the warriors.",
+    "ex_zh": "在沙漠营地里，男孩明白了每个人都有天命，即使战士也不例外。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "euphoria",
+    "pron": "juːˈfɔːr.i.ə",
+    "def_en": "A strong feeling of happiness and excitement",
+    "def_zh": "狂喜；极度兴奋",
+    "quote_en": "Winning the championship filled him with euphoria.",
+    "quote_zh": "赢得冠军让他充满了狂喜。",
+    "ex_en": "The euphoria of finding your treasure is fleeting; the real reward is the journey itself.",
+    "ex_zh": "找到宝藏的狂喜是短暂的；真正的回报是旅程本身。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "evoke",
+    "pron": "ɪˈvoʊk",
+    "def_en": "To bring a feeling, memory, or image into your mind",
+    "def_zh": "唤起；引起",
+    "quote_en": "The old song evoked memories of her childhood.",
+    "quote_zh": "那首老歌唤起了她童年的回忆。",
+    "ex_en": "The desert wind evoked the scent of Fatima’s perfume, and the boy knew she was waiting.",
+    "ex_zh": "沙漠风唤起了法蒂玛香水的气味，男孩知道她正在等待。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "excavation",
+    "pron": "ˌeks.kəˈveɪ.ʃən",
+    "def_en": "The act of digging to find something",
+    "def_zh": "挖掘；开凿",
+    "quote_en": "The excavation revealed an ancient tomb.",
+    "quote_zh": "挖掘发现了一座古墓。",
+    "ex_en": "The boy’s excavation beneath the sycamore tree was not for gold, but for the proof of his dream.",
+    "ex_zh": "男孩在西克莫无花果树下的挖掘不是为了金子，而是为了他梦想的证明。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "exultant",
+    "pron": "ɪɡˈzʌl.tənt",
+    "def_en": "Very happy and proud because of success",
+    "def_zh": "欢欣鼓舞的；得意洋洋的",
+    "quote_en": "The team was exultant after winning the final match.",
+    "quote_zh": "球队赢得决赛后欢欣鼓舞。",
+    "ex_en": "The exultant boy laughed at the Pyramids, for he now understood that his treasure had always been at home.",
+    "ex_zh": "男孩欢欣鼓舞地对着金字塔大笑，因为他现在明白了宝藏一直在家。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "falcon",
+    "pron": "ˈfæl.kən",
+    "def_en": "A bird of prey that hunts small animals",
+    "def_zh": "猎鹰；隼",
+    "quote_en": "The falcon circled high above the desert.",
+    "quote_zh": "猎鹰在沙漠上空高高盘旋。",
+    "ex_en": "The falcon on the alchemist’s shoulder saw what men could not: the soul of the desert.",
+    "ex_zh": "炼金术士肩上的猎鹰看到了人眼看不到的东西：沙漠的灵魂。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "flask",
+    "pron": "flæsk",
+    "def_en": "A small bottle or container, often for liquids",
+    "def_zh": "烧瓶；小瓶子",
+    "quote_en": "He carried a flask of water in his backpack.",
+    "quote_zh": "他的背包里带着一小瓶水。",
+    "ex_en": "The alchemist took a crystal flask containing the Elixir of Life, but he never used it.",
+    "ex_zh": "炼金术士拿出一个装有长生不老药的水晶瓶，但他从未使用过。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "fleeting",
+    "pron": "ˈfliː.tɪŋ",
+    "def_en": "Lasting for only a short time",
+    "def_zh": "短暂的；飞逝的",
+    "quote_en": "The butterfly’s beauty is fleeting.",
+    "quote_zh": "蝴蝶的美是短暂的。",
+    "ex_en": "The boy’s fear was fleeting; once he faced it, it turned into a feather on the wind.",
+    "ex_zh": "男孩的恐惧是短暂的；一旦他面对它，它就变成了风中的一根羽毛。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "flock",
+    "pron": "flɑːk",
+    "def_en": "A group of sheep, goats, or birds",
+    "def_zh": "羊群；鸟群",
+    "quote_en": "The shepherd led his flock to fresh grass.",
+    "quote_zh": "牧羊人把羊群带到新鲜的草地上。",
+    "ex_en": "Santiago sold his flock to follow a dream, proving that sometimes you must lose what you have to gain what you need.",
+    "ex_zh": "圣地亚哥卖掉羊群去追寻一个梦，证明了有时你必须失去拥有的才能得到需要的。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "frantic",
+    "pron": "ˈfræn.tɪk",
+    "def_en": "Wild with worry, fear, or hurry",
+    "def_zh": "发狂的；狂乱的",
+    "quote_en": "She made a frantic search for her lost keys.",
+    "quote_zh": "她疯狂地寻找丢失的钥匙。",
+    "ex_en": "When the oasis was attacked, the boy remained calm while others were frantic, because he trusted the omens.",
+    "ex_zh": "绿洲遭袭时，男孩保持冷静而其他人陷入狂乱，因为他相信预兆。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "genies",
+    "pron": "ˈdʒiː.niz",
+    "def_en": "Magical spirits in Arabian stories that grant wishes",
+    "def_zh": "精灵；神怪",
+    "quote_en": "In the story, Aladdin rubbed the lamp and a genie appeared.",
+    "quote_zh": "故事里，阿拉丁擦拭神灯，一个精灵出现了。",
+    "ex_en": "The alchemist spoke with the genies of the desert, but the boy learned that the greatest magic is in the heart.",
+    "ex_zh": "炼金术士与沙漠精灵对话，但男孩明白了最伟大的魔法在内心。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "grim",
+    "pron": "ɡrɪm",
+    "def_en": "Serious, harsh, or unpleasant",
+    "def_zh": "严峻的；冷酷的",
+    "quote_en": "The soldier had a grim expression on his face.",
+    "quote_zh": "士兵脸上露出严峻的表情。",
+    "ex_en": "The journey was grim at times, but every harsh mile taught the boy something new about himself.",
+    "ex_zh": "旅程有时是严峻的，但每一英里艰辛都让男孩对自己有了新的认识。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "habituate",
+    "pron": "həˈbɪtʃ.u.eɪt",
+    "def_en": "To get used to something",
+    "def_zh": "使习惯于",
+    "quote_en": "You will habituate to the noise after a few days.",
+    "quote_zh": "几天后你就会习惯噪音。",
+    "ex_en": "The boy habituated to the silence of the desert, and in that silence he finally heard his own heart.",
+    "ex_zh": "男孩习惯了沙漠的寂静，在那寂静中他终于听到了自己的心。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "hookah",
+    "pron": "ˈhʊk.ə",
+    "def_en": "A pipe for smoking that passes smoke through water",
+    "def_zh": "水烟筒",
+    "quote_en": "The old men sat in a circle, sharing a hookah.",
+    "quote_zh": "老人们围坐一圈，共用一个水烟筒。",
+    "ex_en": "While smoking the hookah, the crystal merchant said, “Maktub,” and the boy began to understand fate.",
+    "ex_zh": "抽着水烟筒，水晶店老板说“马克图布”，男孩开始理解命运。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "hospitality",
+    "pron": "ˌhɑː.spɪˈtæl.ə.ti",
+    "def_en": "Friendly and generous treatment of guests",
+    "def_zh": "好客；款待",
+    "quote_en": "The family’s hospitality made us feel very welcome.",
+    "quote_zh": "那家人的好客让我们感到非常受欢迎。",
+    "ex_en": "In the oasis, the law of hospitality was sacred; a guest was a gift from the desert.",
+    "ex_zh": "在绿洲，好客法则神圣不可侵犯；客人是沙漠的礼物。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "impassable",
+    "pron": "ɪmˈpæs.ə.bəl",
+    "def_en": "Impossible to travel through or across",
+    "def_zh": "无法通行的",
+    "quote_en": "The road was impassable because of heavy snow.",
+    "quote_zh": "大雪导致道路无法通行。",
+    "ex_en": "The desert seemed impassable, but the boy learned that every obstacle is an omen to go around.",
+    "ex_zh": "沙漠看似无法通行，但男孩明白了每个障碍都是绕行的预兆。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "impatient",
+    "pron": "ɪmˈpeɪ.ʃənt",
+    "def_en": "Easily annoyed by delays or mistakes",
+    "def_zh": "不耐烦的；急躁的",
+    "quote_en": "Stop being so impatient – the bus will come soon.",
+    "quote_zh": "别这么不耐烦——公交车很快就到。",
+    "ex_en": "The Englishman was impatient to meet the alchemist, but the alchemist made him wait, for patience is a lesson.",
+    "ex_zh": "英国人急于见到炼金术士，但炼金术士让他等待，因为耐心是一堂课。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "impenetrable",
+    "pron": "ɪmˈpen.ə.trə.bəl",
+    "def_en": "Impossible to enter or get through",
+    "def_zh": "无法穿透的；不可进入的",
+    "quote_en": "The jungle was impenetrable without a guide.",
+    "quote_zh": "没有向导，那片丛林是无法穿越的。",
+    "ex_en": "The desert’s silence seemed impenetrable, but the boy’s heart found a way to speak to it.",
+    "ex_zh": "沙漠的寂静似乎无法穿透，但男孩的心找到了与它对话的方式。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "imperceptibly",
+    "pron": "ˌɪm.pərˈsep.tə.bli",
+    "def_en": "In a way that is too small or slight to notice",
+    "def_zh": "难以察觉地；细微地",
+    "quote_en": "The sunlight faded imperceptibly as evening came.",
+    "quote_zh": "傍晚来临时，阳光难以察觉地变暗了。",
+    "ex_en": "The boy’s fear disappeared imperceptibly, replaced by the quiet certainty that he would find his treasure.",
+    "ex_zh": "男孩的恐惧难以察觉地消失了，取而代之的是他会找到宝藏的平静确信。",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "impetus",
+    "pron": "ˈɪm.pə.t̬əs",
+    "def_en": "A force that causes something to happen",
+    "def_zh": "动力；推动力",
+    "quote_en": "The new law gave impetus to environmental protection.",
+    "quote_zh": "新法律推动了环境保护。",
+    "ex_en": "Love is not an obstacle; it is the greatest impetus to follow your Personal Legend.",
+    "ex_zh": "爱不是障碍；它是追寻天命的最大动力。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "incessantly",
+    "pron": "ɪnˈses.ənt.li",
+    "def_en": "Without stopping; continuously",
+    "def_zh": "不停地；连续地",
+    "quote_en": "The baby cried incessantly all night.",
+    "quote_zh": "婴儿整夜不停地哭。",
+    "ex_en": "The wind blew incessantly across the desert, shaping the dunes just as time shapes a man’s soul.",
+    "ex_zh": "风不停吹过沙漠，塑造沙丘，正如时间塑造人的灵魂。",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "infidel",
+    "pron": "ˈɪn.fɪ.dəl",
+    "def_en": "A person who does not believe in a particular religion",
+    "def_zh": "异教徒；不信教者",
+    "quote_en": "During the Crusades, each side called the other infidels.",
+    "quote_zh": "十字军东征期间，双方互称异教徒。",
+    "ex_en": "The boy was called an infidel in Tangier, yet he learned that all people share the same Soul of the World.",
+    "ex_zh": "男孩在丹吉尔被称为异教徒，但他明白了所有人都共享同一个世界之魂。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "inheritance",
+    "pron": "ɪnˈher.ɪ.təns",
+    "def_en": "Money or property received from someone who has died",
+    "def_zh": "遗产；继承物",
+    "quote_en": "He used his inheritance to buy a small farm.",
+    "quote_zh": "他用遗产买了一个小农场。",
+    "ex_en": "The boy’s real inheritance was not gold coins from his father, but the dream that lived in his soul.",
+    "ex_zh": "男孩真正的遗产不是父亲的金币，而是住在他灵魂里的梦想。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "insignificant",
+    "pron": "ˌɪn.sɪɡˈnɪf.ɪ.kənt",
+    "def_en": "Too small or unimportant to matter",
+    "def_zh": "微不足道的；无足轻重的",
+    "quote_en": "One grain of sand seems insignificant, but the desert is made of millions.",
+    "quote_zh": "一粒沙看似微不足道，但沙漠由亿万粒沙组成。",
+    "ex_en": "The boy felt insignificant in the vast desert, but he learned that even a single heart can change the world.",
+    "ex_zh": "男孩在广袤沙漠中感到微不足道，但他明白了哪怕一颗心也能改变世界。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "interpretation",
+    "pron": "ɪnˌtɜːr.prəˈteɪ.ʃən",
+    "def_en": "The act of explaining the meaning of something",
+    "def_zh": "解释；诠释",
+    "quote_en": "There are many interpretations of this poem.",
+    "quote_zh": "这首诗有很多种解释。",
+    "ex_en": "The old woman’s interpretation of Santiago’s dream set him on a path that changed his life forever.",
+    "ex_zh": "老妇人对圣地亚哥之梦的诠释让他走上了一条永远改变他生活的道路。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "irritated",
+    "pron": "ˈɪr.ɪ.teɪ.tɪd",
+    "def_en": "Annoyed or bothered",
+    "def_zh": "恼怒的；烦躁的",
+    "quote_en": "The constant noise left him feeling irritated.",
+    "quote_zh": "持续的噪音让他感到烦躁。",
+    "ex_en": "The Englishman was irritated by the boy’s simple questions, but simplicity often holds the deepest truth.",
+    "ex_zh": "英国人被男孩简单的问题惹恼了，但简单常常蕴藏着最深的真理。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "lament",
+    "pron": "ləˈment",
+    "def_en": "To express sadness or regret",
+    "def_zh": "哀叹；悔恨",
+    "quote_en": "She lamented the loss of her old friends.",
+    "quote_zh": "她哀叹失去老朋友。",
+    "ex_en": "Do not lament what you left behind; everything is written in the Soul of the World.",
+    "ex_zh": "不要哀叹你留下的东西；一切都写在世界之魂里。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "leafing",
+    "pron": "ˈliː.fɪŋ",
+    "def_en": "Turning pages quickly",
+    "def_zh": "快速翻阅",
+    "quote_en": "He sat in the library leafing through old magazines.",
+    "quote_zh": "他坐在图书馆里翻阅旧杂志。",
+    "ex_en": "The alchemist was leafing through a book when he found the story of Narcissus and the lake.",
+    "ex_zh": "炼金术士翻阅一本书时，发现了那喀索斯和湖泊的故事。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "maktub",
+    "pron": "mækˈtuːb",
+    "def_en": "It is written (Arabic expression of fate)",
+    "def_zh": "马克图布；注定",
+    "quote_en": "When the plan failed, he just said, “Maktub.”",
+    "quote_zh": "计划失败时，他只是说“马克图布”。",
+    "ex_en": "Maktub does not mean you give up; it means you trust that the universe is on your side.",
+    "ex_zh": "马克图布不意味着你放弃；而是你相信宇宙站在你这边。",
+    "part_of_speech": "n./interj."
+  },
+  {
+    "word": "manifestation",
+    "pron": "ˌmæn.ə.feˈsteɪ.ʃən",
+    "def_en": "A sign or example of something",
+    "def_zh": "表现；显现",
+    "quote_en": "Her smile was a manifestation of pure joy.",
+    "quote_zh": "她的微笑是纯粹快乐的表现。",
+    "ex_en": "The treasure was not the goal; it was a manifestation of the boy’s faith in his Personal Legend.",
+    "ex_zh": "宝藏不是目标；它是男孩对天命信仰的一种显现。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "melancholy",
+    "pron": "ˈmel.ən.kɑː.li",
+    "def_en": "A feeling of deep sadness",
+    "def_zh": "忧郁；愁思",
+    "quote_en": "A wave of melancholy washed over him on rainy days.",
+    "quote_zh": "雨天，一阵忧郁涌上他心头。",
+    "ex_en": "The alchemist felt no melancholy, for he knew that every goodbye is a step toward a new hello.",
+    "ex_zh": "炼金术士没有忧郁，因为他知道每次告别都是走向新相遇的一步。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "mirage",
+    "pron": "mɪˈrɑːʒ",
+    "def_en": "An illusion caused by hot air, making you see water where there is none",
+    "def_zh": "海市蜃楼；幻景",
+    "quote_en": "The tired traveler saw a mirage of a lake in the desert.",
+    "quote_zh": "疲惫的旅行者在沙漠中看到了湖泊的海市蜃楼。",
+    "ex_en": "Many people chase mirages of wealth, but the boy chased a dream that was real because he lived it.",
+    "ex_zh": "许多人追逐财富的海市蜃楼，但男孩追逐的梦想是真实的，因为他活在梦想里。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "monotony",
+    "pron": "məˈnɑː.tən.i",
+    "def_en": "Boring sameness with no variety",
+    "def_zh": "单调；千篇一律",
+    "quote_en": "The monotony of factory work made him sleepy.",
+    "quote_zh": "工厂工作的单调让他昏昏欲睡。",
+    "ex_en": "The desert’s monotony hides a million secrets; you only need to look with the eyes of your soul.",
+    "ex_zh": "沙漠的单调隐藏着百万个秘密；你只需要用灵魂之眼去看。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "moorish",
+    "pron": "ˈmʊr.ɪʃ",
+    "def_en": "Relating to the Moors, Muslim people from North Africa",
+    "def_zh": "摩尔人的",
+    "quote_en": "The palace had beautiful Moorish arches.",
+    "quote_zh": "那座宫殿有美丽的摩尔式拱门。",
+    "ex_en": "The girl’s eyes recalled the Moorish conquerors – a reminder that every land was once a stranger’s home.",
+    "ex_zh": "女孩的眼睛让人想起摩尔征服者——提醒着每片土地都曾是异乡人的家。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "muse",
+    "pron": "mjuːz",
+    "def_en": "A source of inspiration for an artist or writer",
+    "def_zh": "缪斯；灵感来源",
+    "quote_en": "The poet’s wife was his muse.",
+    "quote_zh": "诗人的妻子是他的缪斯。",
+    "ex_en": "The desert was the alchemist’s muse; it taught him the language of the world without words.",
+    "ex_zh": "沙漠是炼金术士的缪斯；它教会他无需言语的世界之语。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "neutral",
+    "pron": "ˈnuː.trəl",
+    "def_en": "Not supporting either side in a conflict",
+    "def_zh": "中立的；不偏不倚的",
+    "quote_en": "Switzerland remained neutral during the war.",
+    "quote_zh": "瑞士在战争期间保持中立。",
+    "ex_en": "The oasis was neutral ground, a place where enemies could sit together and dream of peace.",
+    "ex_zh": "绿洲是中立的土地，敌人可以坐在一起梦想和平。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "nostalgia",
+    "pron": "nɑːˈstæl.dʒə",
+    "def_en": "A sad feeling for a happy time in the past",
+    "def_zh": "怀旧；乡愁",
+    "quote_en": "Old photos filled her with nostalgia for her childhood.",
+    "quote_zh": "老照片让她充满对童年的怀旧之情。",
+    "ex_en": "Santiago felt no nostalgia for his sheep, because he was busy making new memories in the desert.",
+    "ex_zh": "圣地亚哥对羊群没有怀旧之情，因为他正忙着在沙漠中创造新回忆。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "oasis",
+    "pron": "oʊˈeɪ.sɪs",
+    "def_en": "A fertile spot in the desert with water and plants",
+    "def_zh": "绿洲",
+    "quote_en": "After days of travel, they reached an oasis with palm trees.",
+    "quote_zh": "经过多日旅行，他们到达了一个有棕榈树的绿洲。",
+    "ex_en": "An oasis is not the end; it is a resting place where you gather strength for the next part of the journey.",
+    "ex_zh": "绿洲不是终点；它是为下一段旅程积蓄力量的休息之地。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "obscure",
+    "pron": "əbˈskjʊr",
+    "def_en": "Not well known or difficult to understand",
+    "def_zh": "模糊的；不起眼的",
+    "quote_en": "He wrote obscure poems that few people read.",
+    "quote_zh": "他写的晦涩诗歌很少有人读。",
+    "ex_en": "The alchemist’s teachings seemed obscure at first, but they became clear when the boy listened to his heart.",
+    "ex_zh": "炼金术士的教导向来晦涩，但当男孩倾听内心时，它们变得清晰。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "omen",
+    "pron": "ˈoʊ.mən",
+    "def_en": "A sign of what will happen in the future",
+    "def_zh": "预兆；征兆",
+    "quote_en": "Black cats are considered bad omens in some cultures.",
+    "quote_zh": "在一些文化中，黑猫被视为不祥之兆。",
+    "ex_en": "The boy learned to read omens in the flight of hawks and the wind, for they were the map of his Personal Legend.",
+    "ex_zh": "男孩学会了从鹰的飞翔和风中解读预兆，因为它们是他天命的地图。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "persisted",
+    "pron": "pərˈsɪs.tɪd",
+    "def_en": "Continued to do something despite difficulty",
+    "def_zh": "坚持；持续",
+    "quote_en": "She persisted with her piano practice every day.",
+    "quote_zh": "她每天坚持练习钢琴。",
+    "ex_en": "The boy persisted across the desert even when he had nothing, because his heart told him the treasure was real.",
+    "ex_zh": "男孩身无分文时仍坚持穿越沙漠，因为他的心告诉他宝藏是真实的。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "pharaoh",
+    "pron": "ˈfer.oʊ",
+    "def_en": "A ruler of ancient Egypt",
+    "def_zh": "法老",
+    "quote_en": "The pharaoh built the great pyramids as tombs.",
+    "quote_zh": "法老建造了金字塔作为陵墓。",
+    "ex_en": "The pharaoh’s dream of fat and thin cows was interpreted by Joseph, changing the fate of Egypt.",
+    "ex_zh": "法老关于肥牛和瘦牛的梦被约瑟解读，改变了埃及的命运。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "pilgrimage",
+    "pron": "ˈpɪl.ɡrə.mɪdʒ",
+    "def_en": "A religious journey to a holy place",
+    "def_zh": "朝圣；朝圣之旅",
+    "quote_en": "Many Muslims make a pilgrimage to Mecca.",
+    "quote_zh": "许多穆斯林去麦加朝圣。",
+    "ex_en": "The crystal merchant never made his pilgrimage to Mecca, but he taught the boy that the dream itself can be sacred.",
+    "ex_zh": "水晶店老板从未去麦加朝圣，但他教会了男孩梦想本身也可以是神圣的。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "poised",
+    "pron": "pɔɪzd",
+    "def_en": "Ready and balanced to do something",
+    "def_zh": "准备就绪的；蓄势待发的",
+    "quote_en": "The cat was poised to jump on the mouse.",
+    "quote_zh": "猫蓄势待发要扑向老鼠。",
+    "ex_en": "The boy stood poised between his old life and his new one, like a hawk ready to dive.",
+    "ex_zh": "男孩在旧生活和新生活之间蓄势待发，像一只准备俯冲的鹰。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "preconceived",
+    "pron": "ˌpriː.kənˈsiːvd",
+    "def_en": "Formed before having actual knowledge",
+    "def_zh": "预想的；先入为主的",
+    "quote_en": "He had a preconceived idea that the job would be boring.",
+    "quote_zh": "他预想那份工作会很无聊。",
+    "ex_en": "The Englishman arrived with preconceived notions of alchemy, but the desert taught him to open his mind.",
+    "ex_zh": "英国人带着对炼金术的先入之见而来，但沙漠教会他敞开心扉。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "profound",
+    "pron": "prəˈfaʊnd",
+    "def_en": "Very deep or meaningful",
+    "def_zh": "深刻的；深奥的",
+    "quote_en": "The movie had a profound effect on her.",
+    "quote_zh": "那部电影对她产生了深刻的影响。",
+    "ex_en": "The old king spoke only a few words, but their meaning was profound: when you want something, the universe conspires.",
+    "ex_zh": "老国王只说了几个字，但含义深刻：当你渴望某物时，宇宙会协力相助。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "prognostication",
+    "pron": "prɑːɡˌnɑː.stɪˈkeɪ.ʃən",
+    "def_en": "A prediction or guess about the future",
+    "def_zh": "预测；预言",
+    "quote_en": "His prognostication that it would rain came true.",
+    "quote_zh": "他会下雨的预言成真了。",
+    "ex_en": "The alchemist’s prognostication about the attacking army saved the oasis, proving that seeing is not enough – you must act.",
+    "ex_zh": "炼金术士对敌军来袭的预言拯救了绿洲，证明了光看见不够——你必须行动。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "rabbi",
+    "pron": "ˈræb.aɪ",
+    "def_en": "A Jewish spiritual leader or teacher",
+    "def_zh": "拉比；犹太教教师",
+    "quote_en": "The rabbi explained the ancient scriptures.",
+    "quote_zh": "拉比解释了古老的经文。",
+    "ex_en": "In the alchemist’s story, a Roman centurion sought a rabbi who could heal his servant – and found faith instead.",
+    "ex_zh": "在炼金术士的故事里，一位罗马百夫长寻找能治愈仆人的拉比——却找到了信仰。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "ravines",
+    "pron": "rəˈviːnz",
+    "def_en": "Deep, narrow valleys with steep sides",
+    "def_zh": "沟壑；峡谷",
+    "quote_en": "Water had cut deep ravines into the mountain.",
+    "quote_zh": "水在山中切出了深深的沟壑。",
+    "ex_en": "The desert’s ravines hid secrets and wild animals, but the boy walked through them without fear.",
+    "ex_zh": "沙漠的沟壑隐藏着秘密和野兽，但男孩毫无畏惧地走过。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "recurrent",
+    "pron": "rɪˈkɜːr.ənt",
+    "def_en": "Happening again and again",
+    "def_zh": "反复出现的；周期性的",
+    "quote_en": "He had recurrent nightmares about falling.",
+    "quote_zh": "他反复做坠落的噩梦。",
+    "ex_en": "Santiago’s recurrent dream of the pyramids was not a curse; it was the universe whispering his Personal Legend.",
+    "ex_zh": "圣地亚哥关于金字塔的反复出现的梦不是诅咒；是宇宙在低语他的天命。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "reiterate",
+    "pron": "riːˈɪt.ə.reɪt",
+    "def_en": "To say something again for emphasis",
+    "def_zh": "重申；反复说",
+    "quote_en": "The teacher reiterated the instructions three times.",
+    "quote_zh": "老师把指示重复了三遍。",
+    "ex_en": "The alchemist did not need to reiterate his lessons; the desert taught them once, and the boy never forgot.",
+    "ex_zh": "炼金术士不需要重申他的教导；沙漠只教一次，男孩便永志不忘。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "renouncing",
+    "pron": "rɪˈnaʊn.sɪŋ",
+    "def_en": "Formally giving up something",
+    "def_zh": "放弃；宣布放弃",
+    "quote_en": "Renouncing his claim to the throne was a hard decision.",
+    "quote_zh": "放弃王位继承权是一个艰难的决定。",
+    "ex_en": "Renouncing joy and conquest is the most dangerous obstacle, for it wears a saintly mask.",
+    "ex_zh": "放弃快乐和征服是最危险的障碍，因为它戴着圣洁的面具。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "retaliate",
+    "pron": "rɪˈtæl.i.eɪt",
+    "def_en": "To attack someone because they attacked you first",
+    "def_zh": "报复；反击",
+    "quote_en": "If you hit him, he will retaliate.",
+    "quote_zh": "如果你打他，他会报复。",
+    "ex_en": "The boy wanted to retaliate when he was robbed, but he chose to move on – a decision that saved his dream.",
+    "ex_zh": "男孩被抢时想报复，但他选择了继续前行——这个决定拯救了他的梦想。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "ritual",
+    "pron": "ˈrɪtʃ.u.əl",
+    "def_en": "A set of actions performed for a religious or ceremonial purpose",
+    "def_zh": "仪式；礼节",
+    "quote_en": "The tea ceremony is a traditional Japanese ritual.",
+    "quote_zh": "茶道是日本传统仪式。",
+    "ex_en": "Every sunset was a ritual for the boy; he would stop and listen to the desert’s silence.",
+    "ex_zh": "每一次日落对男孩来说都是仪式；他会停下来倾听沙漠的寂静。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "ruefully",
+    "pron": "ˈruː.fəl.i",
+    "def_en": "In a way that shows regret or sorrow",
+    "def_zh": "后悔地；懊悔地",
+    "quote_en": "He smiled ruefully after making the mistake.",
+    "quote_zh": "犯错误后，他懊悔地笑了笑。",
+    "ex_en": "The crystal merchant spoke ruefully about his unfulfilled dream of Mecca, yet he never took a single step.",
+    "ex_zh": "水晶店老板懊悔地谈起他未实现的麦加之梦，却从未迈出一步。",
+    "part_of_speech": "adverb"
+  },
+  {
+    "word": "sacristy",
+    "pron": "ˈsæk.rɪ.sti",
+    "def_en": "A room in a church where vestments and sacred objects are kept",
+    "def_zh": "圣器室",
+    "quote_en": "The priest went into the sacristy to prepare for mass.",
+    "quote_zh": "神父走进圣器室准备弥撒。",
+    "ex_en": "The abandoned church’s sacristy had a sycamore tree growing through its roof – a sign that life always returns.",
+    "ex_zh": "废弃教堂的圣器室有一棵西克莫无花果树穿顶生长——一个生命总会回归的迹象。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "scabbard",
+    "pron": "ˈskæb.ərd",
+    "def_en": "A cover for the blade of a sword",
+    "def_zh": "剑鞘；刀鞘",
+    "quote_en": "He drew his sword from its scabbard.",
+    "quote_zh": "他从剑鞘中拔出剑。",
+    "ex_en": "The alchemist’s scimitar remained in its scabbard when he faced the boy; words were his real weapon.",
+    "ex_zh": "炼金术士面对男孩时，弯刀仍在鞘中；语言才是他真正的武器。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "scimitar",
+    "pron": "ˈsɪm.ɪ.tɑːr",
+    "def_en": "A curved sword used in the Middle East",
+    "def_zh": "弯刀",
+    "quote_en": "The warrior carried a sharp scimitar at his belt.",
+    "quote_zh": "战士腰间佩着一把锋利的弯刀。",
+    "ex_en": "The alchemist drew a circle in the sand with his scimitar, trapping the cobra – a lesson in boundaries.",
+    "ex_zh": "炼金术士用弯刀在沙中画了一个圈，困住眼镜蛇——一堂关于界限的课。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "seer",
+    "pron": "sɪr",
+    "def_en": "A person who can see the future",
+    "def_zh": "预言家；先知",
+    "quote_en": "The old seer predicted the king’s downfall.",
+    "quote_zh": "老预言家预言了国王的垮台。",
+    "ex_en": "The boy was not a seer, but he learned to read omens, which is the same language the future speaks.",
+    "ex_zh": "男孩不是预言家，但他学会了解读预兆，那是未来所说的同一种语言。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "seminary",
+    "pron": "ˈsem.ɪ.ner.i",
+    "def_en": "A school for training priests or ministers",
+    "def_zh": "神学院",
+    "quote_en": "He studied theology at the seminary.",
+    "quote_zh": "他在神学院学习神学。",
+    "ex_en": "Santiago’s father wanted him to attend a seminary, but the boy chose the road – and found God in the desert instead.",
+    "ex_zh": "圣地亚哥的父亲想让他上神学院，但男孩选择了道路——并在沙漠中找到了上帝。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "sentinel",
+    "pron": "ˈsen.tɪ.nəl",
+    "def_en": "A soldier or guard on watch",
+    "def_zh": "哨兵；卫兵",
+    "quote_en": "The sentinel stood motionless at the gate.",
+    "quote_zh": "哨兵一动不动地站在门口。",
+    "ex_en": "At night, the sentinels watched the horizon, knowing that the desert tests those who sleep.",
+    "ex_zh": "夜里，哨兵注视着地平线，知道沙漠会考验沉睡的人。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "shear",
+    "pron": "ʃɪr",
+    "def_en": "To cut the wool off a sheep",
+    "def_zh": "剪羊毛",
+    "quote_en": "The farmer shears his sheep every spring.",
+    "quote_zh": "农夫每年春天给羊剪羊毛。",
+    "ex_en": "The boy planned to shear his sheep in front of the merchant’s daughter, but fate had a different plan.",
+    "ex_zh": "男孩打算在商人的女儿面前剪羊毛，但命运另有安排。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "smothered",
+    "pron": "ˈsmʌð.ərd",
+    "def_en": "Killed or covered so that air cannot reach",
+    "def_zh": "窒息；闷死",
+    "quote_en": "The pillow almost smothered him.",
+    "quote_zh": "枕头差点让他窒息。",
+    "ex_en": "The alchemist smothered the coals in the hookah, just as fear can smother a dream if you let it.",
+    "ex_zh": "炼金术士熄灭了水烟筒里的炭火，正如恐惧会扼杀梦想——如果你允许的话。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "sorcerer",
+    "pron": "ˈsɔːr.sər.ər",
+    "def_en": "A person who uses magic, often evil",
+    "def_zh": "巫师；术士",
+    "quote_en": "In the fairy tale, the sorcerer turned the prince into a frog.",
+    "quote_zh": "童话里，巫师把王子变成了青蛙。",
+    "ex_en": "The tribesmen called the alchemist a sorcerer, but he was simply a man who listened to the Soul of the World.",
+    "ex_zh": "部落成员称炼金术士为巫师，但他只是一个倾听世界之魂的人。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "sorcery",
+    "pron": "ˈsɔːr.sər.i",
+    "def_en": "The use of magical powers",
+    "def_zh": "巫术；魔法",
+    "quote_en": "The villagers accused her of sorcery.",
+    "quote_zh": "村民们指控她使用巫术。",
+    "ex_en": "What seemed like sorcery to the soldiers was merely the boy’s deep understanding of the language of the desert.",
+    "ex_zh": "在士兵们看来像巫术的东西，不过是男孩对沙漠语言的深刻理解。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "spoils",
+    "pron": "spɔɪlz",
+    "def_en": "Goods taken from an enemy in war",
+    "def_zh": "战利品；掠夺物",
+    "quote_en": "The soldiers divided the spoils after the battle.",
+    "quote_zh": "战斗结束后，士兵们瓜分了战利品。",
+    "ex_en": "The chest of spoils that the boy found was not his true treasure; the journey itself was worth more.",
+    "ex_zh": "男孩找到的那箱战利品不是他真正的宝藏；旅程本身更有价值。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "stimulus",
+    "pron": "ˈstɪm.jə.ləs",
+    "def_en": "Something that causes activity or growth",
+    "def_zh": "刺激；激励",
+    "quote_en": "Light is a stimulus for plant growth.",
+    "quote_zh": "光是植物生长的刺激因素。",
+    "ex_en": "The old king’s words were the stimulus that pushed the boy from a shepherd into a seeker of treasure.",
+    "ex_zh": "老国王的话是刺激因素，把男孩从牧羊人推向了寻宝者。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "suffuse",
+    "pron": "səˈfjuːz",
+    "def_en": "To spread over or fill something",
+    "def_zh": "弥漫；充满",
+    "quote_en": "Warmth suffused her body as she sat by the fire.",
+    "quote_zh": "坐在火边，温暖弥漫了她的全身。",
+    "ex_en": "A deep peace suffused the boy’s heart when he finally understood that the treasure was wherever he was.",
+    "ex_zh": "当男孩终于明白宝藏就在他所在之处时，深深的平静充满他的内心。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "superstition",
+    "pron": "ˌsuː.pərˈstɪʃ.ən",
+    "def_en": "A belief not based on reason, often about luck",
+    "def_zh": "迷信",
+    "quote_en": "It’s a superstition that breaking a mirror brings bad luck.",
+    "quote_zh": "打碎镜子会带来厄运是一种迷信。",
+    "ex_en": "The boy’s grandfather taught him that butterflies are good omens – not superstition, but a way of seeing.",
+    "ex_zh": "男孩的祖父教他蝴蝶是好预兆——不是迷信，而是一种观看之道。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "surveillance",
+    "pron": "sɜːrˈveɪ.ləns",
+    "def_en": "Close observation, especially of a suspect",
+    "def_zh": "监视；监控",
+    "quote_en": "The police kept the building under surveillance.",
+    "quote_zh": "警方对那栋楼进行监视。",
+    "ex_en": "The Bedouins performed surveillance of the caravan routes, protecting travelers from harm.",
+    "ex_zh": "贝都因人监视商队路线，保护旅行者免受伤害。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "sycamore",
+    "pron": "ˈsɪk.ə.mɔːr",
+    "def_en": "A type of tree with broad leaves",
+    "def_zh": "西克莫无花果树；悬铃木",
+    "quote_en": "The old sycamore tree provided shade on hot days.",
+    "quote_zh": "老西克莫树在炎热的日子里提供阴凉。",
+    "ex_en": "The treasure was buried at the roots of the sycamore tree inside the ruined church – where the boy’s journey began.",
+    "ex_zh": "宝藏埋在废弃教堂里那棵西克莫无花果树下——男孩旅程开始的地方。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "teeming",
+    "pron": "ˈtiː.mɪŋ",
+    "def_en": "Full of or crowded with",
+    "def_zh": "充满的；拥挤的",
+    "quote_en": "The market was teeming with people.",
+    "quote_zh": "市场里挤满了人。",
+    "ex_en": "The empty desert was teeming with life for those who knew how to look: a scarab, a snake, a hidden well.",
+    "ex_zh": "空旷的沙漠对那些知道如何观察的人来说充满了生命：一只圣甲虫、一条蛇、一口隐藏的井。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "theology",
+    "pron": "θiˈɑː.lə.dʒi",
+    "def_en": "The study of God and religious belief",
+    "def_zh": "神学",
+    "quote_en": "He studied theology at university to become a priest.",
+    "quote_zh": "他在大学学习神学，想成为牧师。",
+    "ex_en": "Santiago learned theology at the seminary, but the desert taught him a different kind of divine language.",
+    "ex_zh": "圣地亚哥在神学院学习神学，但沙漠教会了他另一种神圣的语言。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "tinged",
+    "pron": "tɪndʒd",
+    "def_en": "Slightly colored or affected by something",
+    "def_zh": "略带…色的；稍带…感情的",
+    "quote_en": "The sky was tinged with pink at sunset.",
+    "quote_zh": "日落时天空略带粉色。",
+    "ex_en": "The horizon was tinged with red, and the boy knew that a new day of searching had begun.",
+    "ex_zh": "地平线略带红色，男孩知道新一天的寻找开始了。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "traitorous",
+    "pron": "ˈtreɪ.t̬ɚ.əs",
+    "def_en": "Not loyal; betraying someone",
+    "def_zh": "背叛的；不忠的",
+    "quote_en": "The traitorous soldier gave secrets to the enemy.",
+    "quote_zh": "那个不忠的士兵把秘密泄露给了敌人。",
+    "ex_en": "Your heart may seem traitorous when it feels fear, but it is only asking you to be brave.",
+    "ex_zh": "当你的心感到恐惧时，它可能看似不忠，但它只是在请求你勇敢。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "trajectory",
+    "pron": "trəˈdʒek.tər.i",
+    "def_en": "The curved path of something moving through space",
+    "def_zh": "轨迹；弹道",
+    "quote_en": "The missile’s trajectory was carefully calculated.",
+    "quote_zh": "导弹的轨迹被仔细计算过。",
+    "ex_en": "The boy’s trajectory from shepherd to alchemist’s apprentice was not a straight line, but every curve taught him something.",
+    "ex_zh": "男孩从牧羊人到炼金术士学徒的轨迹不是一条直线，但每个弯道都教会他一些东西。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "transform",
+    "pron": "trænsˈfɔːrm",
+    "def_en": "To change completely in form or character",
+    "def_zh": "改变；转变",
+    "quote_en": "The caterpillar transformed into a butterfly.",
+    "quote_zh": "毛毛虫变成了蝴蝶。",
+    "ex_en": "The alchemist could transform lead into gold, but the boy learned to transform fear into courage – a greater miracle.",
+    "ex_zh": "炼金术士能把铅变成金，但男孩学会了把恐惧变成勇气——一个更伟大的奇迹。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "treacherous",
+    "pron": "ˈtretʃ.ər.əs",
+    "def_en": "Dangerous and unpredictable",
+    "def_zh": "危险的； treacherous",
+    "quote_en": "The icy road was treacherous to drive on.",
+    "quote_zh": "结冰的道路开车很危险。",
+    "ex_en": "The desert was treacherous, but so was staying in one place and never following your dream.",
+    "ex_zh": "沙漠是危险的，但待在一个地方永不追随梦想同样危险。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "tribal",
+    "pron": "ˈtraɪ.bəl",
+    "def_en": "Relating to a tribe or tribes",
+    "def_zh": "部落的",
+    "quote_en": "The tribal leaders met to discuss peace.",
+    "quote_zh": "部落首领们开会讨论和平。",
+    "ex_en": "The tribal wars in the desert could not stop the boy, because his Personal Legend was stronger than any sword.",
+    "ex_zh": "沙漠中的部落战争无法阻止男孩，因为他的天命比任何刀剑都强大。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "vanity",
+    "pron": "ˈvæn.ə.t̬i",
+    "def_en": "Excessive pride in one’s appearance or achievements",
+    "def_zh": "虚荣；自负",
+    "quote_en": "Her only flaw was vanity; she looked in every mirror.",
+    "quote_zh": "她唯一的缺点是虚荣；她每面镜子都要照。",
+    "ex_en": "The old king admitted his vanity, but he also knew that a little pride can help an old man guide a young boy.",
+    "ex_zh": "老国王承认自己的虚荣，但他也知道一点骄傲可以帮助一个老人引导一个少年。",
+    "part_of_speech": "noun"
+  },
+  {
+    "word": "wary",
+    "pron": "ˈwer.i",
+    "def_en": "Cautious about danger or problems",
+    "def_zh": "谨慎的；警惕的",
+    "quote_en": "He was wary of strangers after being cheated.",
+    "quote_zh": "被骗之后，他对陌生人很警惕。",
+    "ex_en": "The boy became wary of the desert’s tricks, but he never let wariness turn into fear.",
+    "ex_zh": "男孩对沙漠的诡计变得警惕，但他从未让警惕变成恐惧。",
+    "part_of_speech": "adjective"
+  },
+  {
+    "word": "whet",
+    "pron": "wet",
+    "def_en": "To sharpen or stimulate",
+    "def_zh": "磨快；刺激",
+    "quote_en": "The smell of food whetted his appetite.",
+    "quote_zh": "食物的气味激起了他的食欲。",
+    "ex_en": "The old king said that a taste of success whets your appetite for the journey ahead.",
+    "ex_zh": "老国王说，成功的滋味会激起你对前方旅程的渴望。",
+    "part_of_speech": "verb"
+  },
+  {
+    "word": "zenith",
+    "pron": "ˈziː.nɪθ",
+    "def_en": "The highest point in the sky or in success",
+    "def_zh": "天顶；顶峰",
+    "quote_en": "The sun reaches its zenith at noon.",
+    "quote_zh": "太阳在正午到达天顶。",
+    "ex_en": "At the zenith of his journey, the boy stood before the pyramids and realized that the treasure had been waiting at home all along.",
+    "ex_zh": "在旅程的顶峰，男孩站在金字塔前，意识到宝藏一直在家等待。",
+    "part_of_speech": "noun"
+  }
+];
+
+// ============================================================
+// SYNONYMS/ANTONYMS DATA
+// ============================================================
+const SYNAN = JSON.parse(decodeURIComponent(escape(atob("eyJhYmFuZG9uIjp7InN5biI6WyJkZXNlcnQiLCJmb3JzYWtlIiwibGVhdmUiLCJxdWl0IiwicmVub3VuY2UiLCJyZWxpbnF1aXNoIl0sImFudCI6WyJrZWVwIiwicmV0YWluIiwic3RheSIsImNvbnRpbnVlIiwiaG9sZCIsIm1haW50YWluIl19LCJhYmFzaGVkIjp7InN5biI6WyJlbWJhcnJhc3NlZCIsImFzaGFtZWQiLCJodW1pbGlhdGVkIiwibW9ydGlmaWVkIiwiZGlzY29uY2VydGVkIiwiY2hhZ3JpbmVkIl0sImFudCI6WyJwcm91ZCIsInVuYXNoYW1lZCIsImNvbmZpZGVudCIsImJvbGQiLCJ1bmFiYXNoZWQiXX0sImFicmFkZSI6eyJzeW4iOlsid2VhciIsImVyb2RlIiwic2NyYXRjaCIsInNjcmFwZSIsImNvcnJvZGUiLCJmcmF5Il0sImFudCI6WyJzbW9vdGgiLCJwb2xpc2giLCJidWZmIiwicmVmaW5lIiwicmVwYWlyIl19LCJhbGNoZW1pc3QiOnsic3luIjpbInRyYW5zbXV0ZXIiLCJtYWdpY2lhbiIsInNvcmNlcmVyIiwiY2hlbWlzdCIsIm1ldGFsbHVyZ2lzdCIsInRyYW5zZm9ybWVyIl0sImFudCI6WyJza2VwdGljIiwibWF0ZXJpYWxpc3QiLCJub25iZWxpZXZlciIsInJlYWxpc3QiXX0sImFzdHJpZGUiOnsic3luIjpbInN0cmFkZGxpbmciLCJvbiIsInVwb24iLCJhY3Jvc3MiLCJtb3VudGVkIG9uIiwib3ZlciJdLCJhbnQiOlsiYmVuZWF0aCIsInVuZGVyIiwiYmVsb3ciLCJkaXNtb3VudGVkIl19LCJiYXJiYXJpYW4iOnsic3luIjpbInNhdmFnZSIsImJydXRlIiwidmFuZGFsIiwiaGVhdGhlbiIsInByaW1pdGl2ZSIsInVuY2l2aWxpemVkIl0sImFudCI6WyJjaXZpbGl6ZWQiLCJjdWx0dXJlZCIsInJlZmluZWQiLCJzb3BoaXN0aWNhdGVkIiwiZ2VudGxlIl19LCJiZXRyYXkiOnsic3luIjpbInRyYWl0b3IiLCJkZWNlaXZlIiwic2VsbCBvdXQiLCJkb3VibGUtY3Jvc3MiLCJiYWNrc3RhYiIsIm1pc2xlYWQiXSwiYW50IjpbInByb3RlY3QiLCJzdXBwb3J0IiwiZGVmZW5kIiwibG95YWwiLCJmYWl0aGZ1bCIsInVwaG9sZCJdfSwiY2FwcmljaW91cyI6eyJzeW4iOlsid2hpbXNpY2FsIiwidW5wcmVkaWN0YWJsZSIsImZpY2tsZSIsImVycmF0aWMiLCJ2b2xhdGlsZSIsIm1lcmN1cmlhbCJdLCJhbnQiOlsic3RhYmxlIiwic3RlYWR5IiwiY29uc3RhbnQiLCJwcmVkaWN0YWJsZSIsImNvbnNpc3RlbnQiLCJyZWxpYWJsZSJdfSwiY2FyYXZhbiI6eyJzeW4iOlsiY29udm95IiwicHJvY2Vzc2lvbiIsImNvcnRlZ2UiLCJ3YWdvbiB0cmFpbiIsImV4cGVkaXRpb24iLCJjYXZhbGNhZGUiXSwiYW50IjpbInNvbGl0YXJ5IiwiYWxvbmUiLCJpbmRpdmlkdWFsIiwibG9uZSB0cmF2ZWxlciJdfSwiY2hpZWZ0YWluIjp7InN5biI6WyJsZWFkZXIiLCJoZWFkbWFuIiwidHJpYmFsIGNoaWVmIiwid2FybG9yZCIsInJ1bGVyIiwiY29tbWFuZGVyIl0sImFudCI6WyJmb2xsb3dlciIsInN1Ym9yZGluYXRlIiwiY29tbW9uZXIiLCJzdWJqZWN0Iiwic2VydmFudCJdfSwiY29pbmNpZGVuY2UiOnsic3luIjpbImFjY2lkZW50IiwiZmx1a2UiLCJjaGFuY2UiLCJzZXJlbmRpcGl0eSIsImZvcnR1aXR5IiwiaGFwcGVuc3RhbmNlIl0sImFudCI6WyJkZXNpZ24iLCJpbnRlbnRpb24iLCJwbGFuIiwicHVycG9zZSIsImluZXZpdGFiaWxpdHkiXX0sImNvbnF1aXN0YWRvciI6eyJzeW4iOlsiY29ucXVlcm9yIiwiaW52YWRlciIsImNvbG9uaXplciIsImV4cGxvcmVyIiwiYWR2ZW50dXJlciIsInNvbGRpZXIiXSwiYW50IjpbIm5hdGl2ZSIsImRlZmVuZGVyIiwibGliZXJhdG9yIiwicGVhY2VtYWtlciJdfSwiY29udGVtcGxhdGUiOnsic3luIjpbInBvbmRlciIsInJlZmxlY3QiLCJtZWRpdGF0ZSIsImNvbnNpZGVyIiwiZ2F6ZSIsInN0dWR5Il0sImFudCI6WyJpZ25vcmUiLCJkaXNyZWdhcmQiLCJuZWdsZWN0Iiwib3Zlcmxvb2siLCJkaXNtaXNzIl19LCJjb3Vuc2VsbG9yIjp7InN5biI6WyJhZHZpc29yIiwiZ3VpZGUiLCJtZW50b3IiLCJjb25zdWx0YW50IiwidGhlcmFwaXN0IiwiY29hY2giXSwiYW50IjpbInN0dWRlbnQiLCJkaXNjaXBsZSIsImZvbGxvd2VyIiwibm92aWNlIl19LCJjcm9vayI6eyJzeW4iOlsic3RhZmYiLCJjYW5lIiwic2hlcGhlcmQncyBzdGFmZiIsImhvb2siLCJiZW5kIiwiY3VydmUiXSwiYW50IjpbInN0cmFpZ2h0IiwibGluZSIsImZsYXQiXX0sImRhdW50aW5nIjp7InN5biI6WyJpbnRpbWlkYXRpbmciLCJkaXNjb3VyYWdpbmciLCJmb3JtaWRhYmxlIiwib3ZlcndoZWxtaW5nIiwidGhyZWF0ZW5pbmciLCJmZWFyc29tZSJdLCJhbnQiOlsiZW5jb3VyYWdpbmciLCJlYXN5Iiwic2ltcGxlIiwiY29tZm9ydGluZyIsImludml0aW5nIl19LCJkZWNpcGhlciI6eyJzeW4iOlsiZGVjb2RlIiwiaW50ZXJwcmV0Iiwic29sdmUiLCJ0cmFuc2xhdGUiLCJkZWNyeXB0IiwidW5yYXZlbCJdLCJhbnQiOlsiZW5jb2RlIiwiZW5jcnlwdCIsImNvbmZ1c2UiLCJvYnNjdXJlIiwibWlzaW50ZXJwcmV0Il19LCJkZXZvdXQiOnsic3luIjpbInBpb3VzIiwicmVsaWdpb3VzIiwiZGV2b3RlZCIsImZhaXRoZnVsIiwicmV2ZXJlbnQiLCJnb2RseSJdLCJhbnQiOlsiaW1waW91cyIsImlycmVsaWdpb3VzIiwidW5mYWl0aGZ1bCIsImJsYXNwaGVtb3VzIiwiZGlzbG95YWwiXX0sImRpc2VtYmFyayI6eyJzeW4iOlsiZGViYXJrIiwibGFuZCIsInVubG9hZCIsImRldHJhaW4iLCJhbGlnaHQiLCJsZWF2ZSJdLCJhbnQiOlsiZW1iYXJrIiwiYm9hcmQiLCJsb2FkIiwibW91bnQiLCJjbGltYiBhYm9hcmQiXX0sImRpc2ludGVyIjp7InN5biI6WyJleGh1bWUiLCJ1bmVhcnRoIiwiZGlnIHVwIiwidW5jb3ZlciIsInJldmVhbCIsImV4dHJhY3QiXSwiYW50IjpbImJ1cnkiLCJpbnRlciIsImVudG9tYiIsImNvdmVyIiwiaGlkZSIsImNvbmNlYWwiXX0sImRpc21hbnRsZSI6eyJzeW4iOlsiZGlzYXNzZW1ibGUiLCJ0YWtlIGFwYXJ0Iiwic3RyaXAiLCJkZW1vbGlzaCIsImRpc21vdW50IiwidW5kbyJdLCJhbnQiOlsiYXNzZW1ibGUiLCJidWlsZCIsImNvbnN0cnVjdCIsImVyZWN0IiwicHV0IHRvZ2V0aGVyIl19LCJkaXZpbmF0aW9uIjp7InN5biI6WyJwcm9waGVjeSIsImZvcnR1bmUtdGVsbGluZyIsImF1Z3VyeSIsInNvb3Roc2F5aW5nIiwiY2xhaXJ2b3lhbmNlIiwiZm9yZXRlbGxpbmciXSwiYW50IjpbInNjaWVuY2UiLCJyZWFzb24iLCJsb2dpYyIsImVtcGlyaWNpc20iXX0sImR1bmdlb24iOnsic3luIjpbInByaXNvbiIsImphaWwiLCJjZWxsIiwiZHVuZ2VvbiIsIm91YmxpZXR0ZSIsImxvY2t1cCJdLCJhbnQiOlsiZnJlZWRvbSIsImxpYmVydHkiLCJvcGVuIGFpciIsInBhbGFjZSJdfSwiZWxhdGVkIjp7InN5biI6WyJqb3lmdWwiLCJlY3N0YXRpYyIsImV4aGlsYXJhdGVkIiwiZGVsaWdodGVkIiwib3ZlcmpveWVkIiwidGhyaWxsZWQiXSwiYW50IjpbImRlcHJlc3NlZCIsInNhZCIsImRvd25jYXN0IiwiZ2xvb215IiwiZGlzaGVhcnRlbmVkIl19LCJlbGl4aXIiOnsic3luIjpbInBvdGlvbiIsInRvbmljIiwibm9zdHJ1bSIsInBhbmFjZWEiLCJjdXJlLWFsbCIsInJlbWVkeSJdLCJhbnQiOlsicG9pc29uIiwiYmFuZSIsImN1cnNlIiwiZGlzZWFzZSJdfSwiZW1lcmFsZCI6eyJzeW4iOlsiZ2VtIiwiamV3ZWwiLCJwcmVjaW91cyBzdG9uZSIsImJlcnlsIiwiZ3JlZW4gc3RvbmUiLCJqYWRlIl0sImFudCI6WyJyb2NrIiwicGViYmxlIiwiY29tbW9uIHN0b25lIl19LCJlbmNhbXBtZW50Ijp7InN5biI6WyJjYW1wIiwiYml2b3VhYyIsImNhbXBzaXRlIiwidGVudCBjaXR5IiwiYmFzZSIsImJpdm91YWMiXSwiYW50IjpbImhvbWUiLCJjaXR5IiwidmlsbGFnZSIsInBlcm1hbmVudCBkd2VsbGluZyJdfSwiZXVwaG9yaWEiOnsic3luIjpbImVsYXRpb24iLCJleGhpbGFyYXRpb24iLCJibGlzcyIsInJhcHR1cmUiLCJqb3kiLCJlY3N0YXN5Il0sImFudCI6WyJkZXNwYWlyIiwibWlzZXJ5IiwiZGVwcmVzc2lvbiIsInNvcnJvdyIsIm1lbGFuY2hvbHkiXX0sImV2b2tlIjp7InN5biI6WyJzdW1tb24iLCJpbnZva2UiLCJlbGljaXQiLCJhcm91c2UiLCJjYWxsIGZvcnRoIiwiY29uanVyZSJdLCJhbnQiOlsic3VwcHJlc3MiLCJxdWVsbCIsInN0aWZsZSIsInJlcHJlc3MiLCJmb3JnZXQiXX0sImV4Y2F2YXRpb24iOnsic3luIjpbImRpZ2dpbmciLCJ0cmVuY2giLCJleGh1bWF0aW9uIiwidW5lYXJ0aGluZyIsInF1YXJyeSIsIm1pbmUiXSwiYW50IjpbImJ1cmlhbCIsImludGVybWVudCIsImZpbGxpbmciLCJjb3ZlcmluZyJdfSwiZXh1bHRhbnQiOnsic3luIjpbImp1YmlsYW50IiwidHJpdW1waGFudCIsImVjc3RhdGljIiwicmVqb2ljaW5nIiwiZWxhdGVkIiwiZ2xlZWZ1bCJdLCJhbnQiOlsiZ3JpZXZpbmciLCJsYW1lbnRpbmciLCJzb3Jyb3dmdWwiLCJkZWZlYXRlZCIsImRlamVjdGVkIl19LCJmYWxjb24iOnsic3luIjpbImhhd2siLCJyYXB0b3IiLCJiaXJkIG9mIHByZXkiLCJrZXN0cmVsIiwicGVyZWdyaW5lIiwibWVybGluIl0sImFudCI6WyJwcmV5IiwiZG92ZSIsInBpZ2VvbiIsInNvbmdiaXJkIl19LCJmbGFzayI6eyJzeW4iOlsiYm90dGxlIiwidmlhbCIsImNvbnRhaW5lciIsImZsYWNvbiIsImNhbnRlZW4iLCJqdWciXSwiYW50IjpbInZvaWQiLCJlbXB0eSBzcGFjZSJdfSwiZmxlZXRpbmciOnsic3luIjpbImJyaWVmIiwiZXBoZW1lcmFsIiwidHJhbnNpZW50IiwidGVtcG9yYXJ5IiwibW9tZW50YXJ5Iiwic2hvcnQtbGl2ZWQiXSwiYW50IjpbInBlcm1hbmVudCIsImV0ZXJuYWwiLCJlbmR1cmluZyIsImxhc3RpbmciLCJlbmRsZXNzIl19LCJmbG9jayI6eyJzeW4iOlsiaGVyZCIsImdyb3VwIiwiY3Jvd2QiLCJtdWx0aXR1ZGUiLCJ0aHJvbmciLCJkcm92ZSJdLCJhbnQiOlsiaW5kaXZpZHVhbCIsInNpbmdsZSIsIm9uZSIsImxvbmVyIl19LCJmcmFudGljIjp7InN5biI6WyJmcmVuemllZCIsInBhbmlja2VkIiwiZnJlbmV0aWMiLCJkaXN0cmF1Z2h0IiwiaHlzdGVyaWNhbCIsIndpbGQiXSwiYW50IjpbImNhbG0iLCJjb21wb3NlZCIsInJlbGF4ZWQiLCJwZWFjZWZ1bCIsImNvbGxlY3RlZCJdfSwiZ2VuaWVzIjp7InN5biI6WyJzcGlyaXRzIiwiamlubiIsImRlbW9ucyIsIm1hZ2ljYWwgYmVpbmdzIiwiZ2hvc3RzIiwiZW50aXRpZXMiXSwiYW50IjpbIm1vcnRhbHMiLCJodW1hbnMiLCJvcmRpbmFyeSBiZWluZ3MiXX0sImdyaW0iOnsic3luIjpbInNldmVyZSIsInN0ZXJuIiwiaGFyc2giLCJmb3JiaWRkaW5nIiwiZGlzbWFsIiwiZ2xvb215Il0sImFudCI6WyJjaGVlcmZ1bCIsImJyaWdodCIsInBsZWFzYW50IiwiZ2VudGxlIiwib3B0aW1pc3RpYyJdfSwiaGFiaXR1YXRlIjp7InN5biI6WyJhY2N1c3RvbSIsImFjY2xpbWF0aXplIiwiYWRhcHQiLCJjb25kaXRpb24iLCJmYW1pbGlhcml6ZSIsImFkanVzdCJdLCJhbnQiOlsiZGVoYWJpdHVhdGUiLCJ1bmFjY3VzdG9tIiwiZGlzb3JpZW50IiwiYWxpZW5hdGUiXX0sImhvb2thaCI6eyJzeW4iOlsid2F0ZXIgcGlwZSIsImh1YmJsZS1idWJibGUiLCJuYXJnaGlsZSIsInNoaXNoYSIsImthbHlhbiJdLCJhbnQiOltdfSwiaG9zcGl0YWxpdHkiOnsic3luIjpbImZyaWVuZGxpbmVzcyIsImdlbmVyb3NpdHkiLCJ3ZWxjb21pbmciLCJjb3VydGVzeSIsImtpbmRuZXNzIiwid2FybXRoIl0sImFudCI6WyJob3N0aWxpdHkiLCJpbmhvc3BpdGFsaXR5IiwicnVkZW5lc3MiLCJjb2xkbmVzcyIsInVuZnJpZW5kbGluZXNzIl19LCJpbXBhc3NhYmxlIjp7InN5biI6WyJpbXBlbmV0cmFibGUiLCJibG9ja2VkIiwiaW1wYXNzYWJsZSIsInVudHJhdmVyc2FibGUiLCJjbG9zZWQiLCJvYnN0cnVjdGVkIl0sImFudCI6WyJwYXNzYWJsZSIsIm9wZW4iLCJhY2Nlc3NpYmxlIiwidHJhdmVyc2FibGUiLCJjbGVhciJdfSwiaW1wYXRpZW50Ijp7InN5biI6WyJyZXN0bGVzcyIsImVhZ2VyIiwiYW54aW91cyIsImlycml0YWJsZSIsImhhc3R5IiwiaW50b2xlcmFudCJdLCJhbnQiOlsicGF0aWVudCIsImNhbG0iLCJ0b2xlcmFudCIsImZvcmJlYXJpbmciLCJ1bmNvbXBsYWluaW5nIl19LCJpbXBlbmV0cmFibGUiOnsic3luIjpbImltcGVydmlvdXMiLCJpbXBhc3NhYmxlIiwiZGVuc2UiLCJzb2xpZCIsImltcG9zc2libGUgdG8gZW50ZXIiLCJpbnZpb2xhYmxlIl0sImFudCI6WyJwZW5ldHJhYmxlIiwicGVybWVhYmxlIiwiYWNjZXNzaWJsZSIsIm9wZW4iLCJwb3JvdXMiXX0sImltcGVyY2VwdGlibHkiOnsic3luIjpbImdyYWR1YWxseSIsInN1YnRseSIsImludmlzaWJseSIsImluc2Vuc2libHkiLCJ1bm5vdGljZWFibHkiLCJmYWludGx5Il0sImFudCI6WyJwZXJjZXB0aWJseSIsIm5vdGljZWFibHkiLCJvYnZpb3VzbHkiLCJjbGVhcmx5IiwidmlzaWJseSJdfSwiaW1wZXR1cyI6eyJzeW4iOlsic3RpbXVsdXMiLCJtb3RpdmUiLCJpbmNlbnRpdmUiLCJzcHVyIiwiZHJpdmUiLCJ0cmlnZ2VyIl0sImFudCI6WyJibG9jayIsImhpbmRyYW5jZSIsIm9ic3RhY2xlIiwiZGV0ZXJyZW50IiwiZGlzY291cmFnZW1lbnQiXX0sImluY2Vzc2FudGx5Ijp7InN5biI6WyJjb250aW51b3VzbHkiLCJlbmRsZXNzbHkiLCJwZXJwZXR1YWxseSIsInVuY2Vhc2luZ2x5Iiwibm9uc3RvcCIsImNvbnN0YW50bHkiXSwiYW50IjpbImludGVybWl0dGVudGx5Iiwic3BvcmFkaWNhbGx5Iiwib2NjYXNpb25hbGx5Iiwic29tZXRpbWVzIiwicmFyZWx5Il19LCJpbmZpZGVsIjp7InN5biI6WyJ1bmJlbGlldmVyIiwiaGVhdGhlbiIsImhlcmV0aWMiLCJub25iZWxpZXZlciIsInBhZ2FuIiwic2tlcHRpYyJdLCJhbnQiOlsiYmVsaWV2ZXIiLCJmYWl0aGZ1bCIsImRldm90ZWUiLCJmb2xsb3dlciIsIndvcnNoaXBlciJdfSwiaW5oZXJpdGFuY2UiOnsic3luIjpbImxlZ2FjeSIsImJlcXVlc3QiLCJoZXJpdGFnZSIsImVzdGF0ZSIsImJpcnRocmlnaHQiLCJwYXRyaW1vbnkiXSwiYW50IjpbImxvc3MiLCJmb3JmZWl0IiwiZGlzcG9zc2Vzc2lvbiIsImJhbmtydXB0Y3kiXX0sImluc2lnbmlmaWNhbnQiOnsic3luIjpbInRyaXZpYWwiLCJuZWdsaWdpYmxlIiwibWlub3IiLCJ1bmltcG9ydGFudCIsInBldHR5IiwicGFsdHJ5Il0sImFudCI6WyJzaWduaWZpY2FudCIsImltcG9ydGFudCIsIm1ham9yIiwiY29uc2VxdWVudGlhbCIsInZpdGFsIl19LCJpbnRlcnByZXRhdGlvbiI6eyJzeW4iOlsiZXhwbGFuYXRpb24iLCJhbmFseXNpcyIsInJlYWRpbmciLCJleGVnZXNpcyIsImRlY29kaW5nIiwicmVuZGVyaW5nIl0sImFudCI6WyJtaXNpbnRlcnByZXRhdGlvbiIsImNvbmZ1c2lvbiIsIm1pc3JlYWRpbmciLCJlcnJvciJdfSwiaXJyaXRhdGVkIjp7InN5biI6WyJhbm5veWVkIiwiaXJrZWQiLCJhZ2dyYXZhdGVkIiwidmV4ZWQiLCJib3RoZXJlZCIsImV4YXNwZXJhdGVkIl0sImFudCI6WyJwbGVhc2VkIiwiY2FsbSIsImNvbnRlbnQiLCJzb290aGVkIiwicGFjaWZpZWQiXX0sImxhbWVudCI6eyJzeW4iOlsibW91cm4iLCJiZW1vYW4iLCJncmlldmUiLCJ3ZWVwIiwicmVncmV0IiwiZGVwbG9yZSJdLCJhbnQiOlsiY2VsZWJyYXRlIiwicmVqb2ljZSIsInByYWlzZSIsImFwcGxhdWQiLCJjb21tZW5kIl19LCJsZWFmaW5nIjp7InN5biI6WyJicm93c2luZyIsInNraW1taW5nIiwic2Nhbm5pbmciLCJmbGlwcGluZyIsInR1cm5pbmciLCJwZXJ1c2luZyJdLCJhbnQiOlsicmVhZGluZyB0aG9yb3VnaGx5Iiwic3R1ZHlpbmciLCJpZ25vcmluZyJdfSwibWFrdHViIjp7InN5biI6WyJmYXRlZCIsImRlc3RpbmVkIiwid3JpdHRlbiIsIm9yZGFpbmVkIiwicHJlZGVzdGluZWQiLCJtZWFudCB0byBiZSJdLCJhbnQiOlsicmFuZG9tIiwiY2hhbmNlIiwiYWNjaWRlbnRhbCIsInVucGxhbm5lZCJdfSwibWFuaWZlc3RhdGlvbiI6eyJzeW4iOlsiYXBwZWFyYW5jZSIsImluY2FybmF0aW9uIiwiZW1ib2RpbWVudCIsImV4cHJlc3Npb24iLCJkaXNwbGF5IiwicmV2ZWxhdGlvbiJdLCJhbnQiOlsiaGlkZGVuIiwiY29uY2VhbG1lbnQiLCJvYnNjdXJpdHkiLCJsYXRlbmN5Il19LCJtZWxhbmNob2x5Ijp7InN5biI6WyJzYWRuZXNzIiwiZ2xvb20iLCJkZXNwb25kZW5jeSIsImRlamVjdGlvbiIsInNvcnJvdyIsIm1vdXJuZnVsbmVzcyJdLCJhbnQiOlsiaGFwcGluZXNzIiwiam95IiwiY2hlZXJmdWxuZXNzIiwiZWxhdGlvbiIsImNvbnRlbnRtZW50Il19LCJtaXJhZ2UiOnsic3luIjpbImlsbHVzaW9uIiwiZGVsdXNpb24iLCJwaGFudGFzbSIsImhhbGx1Y2luYXRpb24iLCJmYW50YXN5IiwiZGVjZXB0aW9uIl0sImFudCI6WyJyZWFsaXR5IiwidHJ1dGgiLCJhY3R1YWxpdHkiLCJzdWJzdGFuY2UiLCJjZXJ0YWludHkiXX0sIm1vbm90b255Ijp7InN5biI6WyJzYW1lbmVzcyIsInRlZGl1bSIsImJvcmVkb20iLCJyb3V0aW5lIiwidW5pZm9ybWl0eSIsImR1bGxuZXNzIl0sImFudCI6WyJ2YXJpZXR5IiwiZXhjaXRlbWVudCIsImNoYW5nZSIsImRpdmVyc2l0eSIsInN0aW11bGF0aW9uIl19LCJtb29yaXNoIjp7InN5biI6WyJNb29yaXNoIiwiSXNsYW1pYyIsIkFuZGFsdXNpYW4iLCJBcmFiaWMiLCJOb3J0aCBBZnJpY2FuIiwiTXVzbGltIl0sImFudCI6WyJDaHJpc3RpYW4iLCJFdXJvcGVhbiIsIlNwYW5pc2ggKGluIGhpc3RvcmljYWwgY29udGV4dCkiXX0sIm11c2UiOnsic3luIjpbImluc3BpcmF0aW9uIiwiY3JlYXRpdmUgc3Bpcml0IiwiZ2VuaXVzIiwic3RpbXVsdXMiLCJtb3RpdmF0aW9uIiwiZ3VpZGluZyBzcGlyaXQiXSwiYW50IjpbImJsb2NrIiwiZHJhaW4iLCJkaXNjb3VyYWdlbWVudCJdfSwibmV1dHJhbCI6eyJzeW4iOlsiaW1wYXJ0aWFsIiwidW5iaWFzZWQiLCJub25wYXJ0aXNhbiIsInVuY29tbWl0dGVkIiwiaW5kZXBlbmRlbnQiLCJkaXNpbnRlcmVzdGVkIl0sImFudCI6WyJiaWFzZWQiLCJwYXJ0aWFsIiwicGFydGlzYW4iLCJjb21taXR0ZWQiLCJhbGlnbmVkIiwiaW52b2x2ZWQiXX0sIm5vc3RhbGdpYSI6eyJzeW4iOlsiaG9tZXNpY2tuZXNzIiwibG9uZ2luZyIsInllYXJuaW5nIiwicmVtaW5pc2NlbmNlIiwid2lzdGZ1bG5lc3MiLCJzZW50aW1lbnRhbGl0eSJdLCJhbnQiOlsiYW50aWNpcGF0aW9uIiwiZm9yd2FyZC1sb29raW5nIiwicHJlc2VudC1taW5kZWQiLCJmb3JnZXRmdWxuZXNzIl19LCJvYXNpcyI6eyJzeW4iOlsiaGF2ZW4iLCJyZWZ1Z2UiLCJzYW5jdHVhcnkiLCJyZXRyZWF0Iiwid2F0ZXJpbmcgaG9sZSIsImZlcnRpbGUgc3BvdCJdLCJhbnQiOlsiZGVzZXJ0Iiwid2FzdGVsYW5kIiwiYmFycmVubmVzcyIsIndpbGRlcm5lc3MiXX0sIm9ic2N1cmUiOnsic3luIjpbInZhZ3VlIiwidW5jbGVhciIsImFtYmlndW91cyIsImNyeXB0aWMiLCJteXN0ZXJpb3VzIiwiYWJzdHJ1c2UiXSwiYW50IjpbImNsZWFyIiwib2J2aW91cyIsInBsYWluIiwiZXZpZGVudCIsInRyYW5zcGFyZW50IiwiZXhwbGljaXQiXX0sIm9tZW4iOnsic3luIjpbInNpZ24iLCJwb3J0ZW50IiwiYXVndXJ5IiwicHJlc2FnZSIsImZvcmV3YXJuaW5nIiwiaW5kaWNhdGlvbiJdLCJhbnQiOlsicmFuZG9tIGV2ZW50IiwiY29pbmNpZGVuY2UiLCJpbnNpZ25pZmljYW50IGRldGFpbCJdfSwicGVyc2lzdGVkIjp7InN5biI6WyJjb250aW51ZWQiLCJlbmR1cmVkIiwicGVyc2V2ZXJlZCIsInJlbWFpbmVkIiwibGluZ2VyZWQiLCJzdHVjayJdLCJhbnQiOlsiY2Vhc2VkIiwic3RvcHBlZCIsImVuZGVkIiwicXVpdCIsImdhdmUgdXAiLCJhYmFuZG9uZWQiXX0sInBoYXJhb2giOnsic3luIjpbImtpbmciLCJydWxlciIsIm1vbmFyY2giLCJlbXBlcm9yIiwic292ZXJlaWduIiwidHlyYW50IChFZ3lwdGlhbikiXSwiYW50IjpbInN1YmplY3QiLCJzbGF2ZSIsImNvbW1vbmVyIl19LCJwaWxncmltYWdlIjp7InN5biI6WyJqb3VybmV5IiwiZXhwZWRpdGlvbiIsInF1ZXN0IiwiaG9seSB0cmVrIiwicmVsaWdpb3VzIGpvdXJuZXkiLCJjcnVzYWRlIl0sImFudCI6WyJzdGF5IiwiaG9tZWNvbWluZyIsImlkbGVuZXNzIl19LCJwb2lzZWQiOnsic3luIjpbImJhbGFuY2VkIiwicmVhZHkiLCJwcmVwYXJlZCIsInNldCIsImNvbXBvc2VkIiwic3RlYWR5Il0sImFudCI6WyJ1bmJhbGFuY2VkIiwidW5yZWFkeSIsIm5lcnZvdXMiLCJmdW1ibGluZyIsImhlc2l0YW50Il19LCJwcmVjb25jZWl2ZWQiOnsic3luIjpbInByZWp1ZGdlZCIsInByZXN1cHBvc2VkIiwiYXNzdW1lZCIsInByZWNvbmNlaXZlZCBub3Rpb24iLCJiaWFzZWQiLCJwcmVqdWRpY2VkIl0sImFudCI6WyJvYmplY3RpdmUiLCJ1bmJpYXNlZCIsIm9wZW4tbWluZGVkIiwicmVjZXB0aXZlIiwiZnJlc2giXX0sInByb2ZvdW5kIjp7InN5biI6WyJkZWVwIiwidGhvdWdodGZ1bCIsImluc2lnaHRmdWwiLCJzaWduaWZpY2FudCIsIndlaWdodHkiLCJpbnRlbGxlY3R1YWwiXSwiYW50IjpbInN1cGVyZmljaWFsIiwic2hhbGxvdyIsInRyaXZpYWwiLCJtZWFuaW5nbGVzcyIsImZyaXZvbG91cyJdfSwicHJvZ25vc3RpY2F0aW9uIjp7InN5biI6WyJwcmVkaWN0aW9uIiwiZm9yZWNhc3QiLCJwcm9waGVjeSIsImRpdmluYXRpb24iLCJhdWd1cnkiLCJwcm9nbm9zaXMiXSwiYW50IjpbInJldHJvc3BlY3QiLCJhZnRlcnRob3VnaHQiLCJoaXN0b3J5IiwicG9zdGRpY3Rpb24iXX0sInJhYmJpIjp7InN5biI6WyJ0ZWFjaGVyIiwic3Bpcml0dWFsIGxlYWRlciIsIkpld2lzaCBzY2hvbGFyIiwicmFiYmkiLCJtYXN0ZXIiXSwiYW50IjpbInN0dWRlbnQiLCJkaXNjaXBsZSIsImZvbGxvd2VyIl19LCJyYXZpbmVzIjp7InN5biI6WyJnb3JnZXMiLCJjYW55b25zIiwiZ3VsY2hlcyIsInZhbGxleXMiLCJjaGFzbXMiLCJndWxsaWVzIl0sImFudCI6WyJwbGFpbnMiLCJwbGF0ZWF1cyIsImZsYXRzIiwibWVzYXMiXX0sInJlY3VycmVudCI6eyJzeW4iOlsicmVjdXJyaW5nIiwicmVwZXRpdGl2ZSIsInBlcmlvZGljIiwiY3ljbGljYWwiLCJmcmVxdWVudCIsImhhYml0dWFsIl0sImFudCI6WyJyYXJlIiwib25lLXRpbWUiLCJ1bmlxdWUiLCJpc29sYXRlZCIsInVucmVwZWF0ZWQiXX0sInJlaXRlcmF0ZSI6eyJzeW4iOlsicmVwZWF0IiwicmVzdGF0ZSIsInJlY2FwIiwicmVhc3NlcnQiLCJpbnNpc3QiLCJyZWVtcGhhc2l6ZSJdLCJhbnQiOlsiY29uY2VhbCIsIndpdGhob2xkIiwiaWdub3JlIiwicGFzcyBvdmVyIl19LCJyZW5vdW5jaW5nIjp7InN5biI6WyJhYmFuZG9uaW5nIiwiZm9yZ29pbmciLCJyZWxpbnF1aXNoaW5nIiwiZGVzZXJ0aW5nIiwiYWJkaWNhdGluZyIsIndhaXZpbmciXSwiYW50IjpbImNsYWltaW5nIiwiZW1icmFjaW5nIiwiYWNjZXB0aW5nIiwiY29udGludWluZyIsImFkb3B0aW5nIl19LCJyZXRhbGlhdGUiOnsic3luIjpbInJldmVuZ2UiLCJhdmVuZ2UiLCJwYXkgYmFjayIsInJlY2lwcm9jYXRlIiwiY291bnRlcmF0dGFjayIsInN0cmlrZSBiYWNrIl0sImFudCI6WyJmb3JnaXZlIiwicGFyZG9uIiwidHVybiB0aGUgb3RoZXIgY2hlZWsiLCJhYnNvbHZlIiwiaWdub3JlIl19LCJyaXR1YWwiOnsic3luIjpbImNlcmVtb255Iiwicml0ZSIsImN1c3RvbSIsInRyYWRpdGlvbiIsIm9ic2VydmFuY2UiLCJmb3JtYWxpdHkiXSwiYW50IjpbInNwb250YW5laXR5IiwiaW1wcm92aXNhdGlvbiIsImltcHJvbXB0dSIsImNhc3VhbCJdfSwicnVlZnVsbHkiOnsic3luIjpbInJlZ3JldGZ1bGx5Iiwic29ycm93ZnVsbHkiLCJhcG9sb2dldGljYWxseSIsIndvZWZ1bGx5Iiwic2FkbHkiLCJkaXNhcHBvaW50ZWRseSJdLCJhbnQiOlsiam95ZnVsbHkiLCJnbGVlZnVsbHkiLCJoYXBwaWx5IiwiY29udGVudGVkbHkiLCJwcm91ZGx5Il19LCJzYWNyaXN0eSI6eyJzeW4iOlsidmVzdHJ5IiwiY2h1cmNoIHJvb20iLCJjaGFwZWwiLCJzYW5jdHVhcnkgc3RvcmFnZSJdLCJhbnQiOlsibmF2ZSIsInBldyIsIm1haW4gaGFsbCJdfSwic2NhYmJhcmQiOnsic3luIjpbInNoZWF0aCIsImNhc2UiLCJob2xkZXIiLCJjb3ZlciIsImhvbHN0ZXIiXSwiYW50IjpbImJsYWRlIiwic3dvcmQiLCJleHBvc2VkIHdlYXBvbiJdfSwic2NpbWl0YXIiOnsic3luIjpbInN3b3JkIiwiYmxhZGUiLCJjdXRsYXNzIiwic2FiZXIiLCJmYWxjaGlvbiIsImN1cnZlZCBzd29yZCJdLCJhbnQiOlsic2hpZWxkIiwiaGVsbWV0IiwiYXJtb3IiXX0sInNlZXIiOnsic3luIjpbInByb3BoZXQiLCJjbGFpcnZveWFudCIsInNvb3Roc2F5ZXIiLCJvcmFjbGUiLCJkaXZpbmVyIiwiZm9ydHVuZS10ZWxsZXIiXSwiYW50IjpbImJsaW5kIHBlcnNvbiAoZmlndXJhdGl2ZSkiLCJpZ25vcmFudCIsInVub2JzZXJ2YW50Il19LCJzZW1pbmFyeSI6eyJzeW4iOlsidGhlb2xvZ2ljYWwgc2Nob29sIiwiZGl2aW5pdHkgc2Nob29sIiwicmFiYmluaWNhbCBzY2hvb2wiLCJwcmllc3Qgc2Nob29sIiwiQmlibGUgY29sbGVnZSJdLCJhbnQiOlsic2VjdWxhciB1bml2ZXJzaXR5IiwicHVibGljIHNjaG9vbCIsImF0aGVpc3QgaW5zdGl0dXRpb24iXX0sInNlbnRpbmVsIjp7InN5biI6WyJndWFyZCIsIndhdGNobWFuIiwic2VudHJ5IiwibG9va291dCIsInNjb3V0Iiwid2FyZGVuIl0sImFudCI6WyJpbnRydWRlciIsImF0dGFja2VyIiwiaW52YWRlciIsInRyZXNwYXNzZXIiXX0sInNoZWFyIjp7InN5biI6WyJjbGlwIiwiY3V0IiwidHJpbSIsInNoYXZlIiwiZmxlZWNlIiwic2hlYXIgb2ZmIl0sImFudCI6WyJncm93IiwibWVuZCIsImF0dGFjaCIsInVuaXRlIl19LCJzbW90aGVyZWQiOnsic3luIjpbInN1ZmZvY2F0ZWQiLCJzdGlmbGVkIiwiY2hva2VkIiwiZXh0aW5ndWlzaGVkIiwic3VwcHJlc3NlZCIsInF1ZW5jaGVkIl0sImFudCI6WyJpZ25pdGVkIiwiZmFubmVkIiwiYWlyZWQiLCJyZWxlYXNlZCIsImZyZWVkIl19LCJzb3JjZXJlciI6eyJzeW4iOlsid2l6YXJkIiwibWFnaWNpYW4iLCJ3aXRjaCIsImVuY2hhbnRlciIsIm5lY3JvbWFuY2VyIiwid2FybG9jayJdLCJhbnQiOlsibm9uYmVsaWV2ZXIiLCJzY2llbnRpc3QiLCJyYXRpb25hbGlzdCIsImNvbW1vbmVyIl19LCJzb3JjZXJ5Ijp7InN5biI6WyJtYWdpYyIsIndpdGNoY3JhZnQiLCJ3aXphcmRyeSIsImVuY2hhbnRtZW50IiwiY29uanVyaW5nIiwiYmxhY2sgbWFnaWMiXSwiYW50IjpbInNjaWVuY2UiLCJyZWFzb24iLCJyZWFsaXR5IiwibmF0dXJhbCBsYXciXX0sInNwb2lscyI6eyJzeW4iOlsiYm9vdHkiLCJsb290IiwicGx1bmRlciIsInByaXplIiwid2lubmluZ3MiLCJ0cm9waHkiXSwiYW50IjpbImxvc3MiLCJzYWNyaWZpY2UiLCJjb3N0IiwicGVuYWx0eSJdfSwic3RpbXVsdXMiOnsic3luIjpbImluY2VudGl2ZSIsInNwdXIiLCJtb3RpdmF0aW9uIiwiZW5jb3VyYWdlbWVudCIsInByb21wdCIsImNhdGFseXN0Il0sImFudCI6WyJkZXRlcnJlbnQiLCJkaXNjb3VyYWdlbWVudCIsImhpbmRyYW5jZSIsImJsb2NrIl19LCJzdWZmdXNlIjp7InN5biI6WyJwZXJtZWF0ZSIsInBlcnZhZGUiLCJmaWxsIiwic3ByZWFkIiwiaW1idWUiLCJzYXR1cmF0ZSJdLCJhbnQiOlsiZHJhaW4iLCJlbXB0eSIsImRlaHlkcmF0ZSIsImNsZWFyIiwicmVtb3ZlIl19LCJzdXBlcnN0aXRpb24iOnsic3luIjpbIm15dGgiLCJmYWxsYWN5IiwiZGVsdXNpb24iLCJpcnJhdGlvbmFsIGJlbGllZiIsIm9sZCB3aXZlcycgdGFsZSIsIm1pc2JlbGllZiJdLCJhbnQiOlsic2NpZW5jZSIsImZhY3QiLCJyZWFsaXR5IiwicmF0aW9uYWxpdHkiLCJldmlkZW5jZSJdfSwic3VydmVpbGxhbmNlIjp7InN5biI6WyJvYnNlcnZhdGlvbiIsIm1vbml0b3JpbmciLCJ3YXRjaCIsInNjcnV0aW55Iiwic3VwZXJ2aXNpb24iLCJvdmVyc2lnaHQiXSwiYW50IjpbIm5lZ2xlY3QiLCJpZ25vcmFuY2UiLCJpbmF0dGVudGlvbiIsImJsaW5kbmVzcyJdfSwic3ljYW1vcmUiOnsic3luIjpbImZpZyB0cmVlIiwicGxhbmUgdHJlZSIsInN5Y2Ftb3JlIGZpZyIsInNoYWRlIHRyZWUiXSwiYW50IjpbXX0sInRlZW1pbmciOnsic3luIjpbImFidW5kYW50Iiwic3dhcm1pbmciLCJjcm93ZGVkIiwib3ZlcmZsb3dpbmciLCJidXN0bGluZyIsInBhY2tlZCJdLCJhbnQiOlsiZW1wdHkiLCJiYXJlIiwiZGVzZXJ0ZWQiLCJzcGFyc2UiLCJzY2FudCJdfSwidGhlb2xvZ3kiOnsic3luIjpbImRpdmluaXR5IiwicmVsaWdpb3VzIHN0dWRpZXMiLCJkb2dtYXRpY3MiLCJkb2N0cmluZSIsInNjcmlwdHVyYWwgc3R1ZHkiXSwiYW50IjpbInNlY3VsYXJpc20iLCJhdGhlaXNtIiwiYWdub3N0aWNpc20iLCJpcnJlbGlnaW9uIl19LCJ0aW5nZWQiOnsic3luIjpbInRpbnRlZCIsImNvbG9yZWQiLCJodWVkIiwidG91Y2hlZCIsInN1ZmZ1c2VkIiwic2xpZ2h0bHkgY29sb3JlZCJdLCJhbnQiOlsiYmxlYWNoZWQiLCJjb2xvcmxlc3MiLCJwYWxlIiwidW50b3VjaGVkIl19LCJ0cmFpdG9yb3VzIjp7InN5biI6WyJ0cmVhY2hlcm91cyIsImRpc2xveWFsIiwiZmFpdGhsZXNzIiwidHJlYXNvbm91cyIsInVuZmFpdGhmdWwiLCJwZXJmaWRpb3VzIl0sImFudCI6WyJsb3lhbCIsImZhaXRoZnVsIiwic3RlYWRmYXN0IiwiZGV2b3RlZCIsInRydWUiXX0sInRyYWplY3RvcnkiOnsic3luIjpbInBhdGgiLCJjb3Vyc2UiLCJhcmMiLCJmbGlnaHQgcGF0aCIsIm9yYml0IiwiZGlyZWN0aW9uIl0sImFudCI6WyJzdGFzaXMiLCJyZXN0Iiwic3RpbGxuZXNzIiwic3RhbmRzdGlsbCJdfSwidHJhbnNmb3JtIjp7InN5biI6WyJjb252ZXJ0IiwiY2hhbmdlIiwibWV0YW1vcnBob3NlIiwidHJhbnNmaWd1cmUiLCJ0cmFuc211dGUiLCJyZXNoYXBlIl0sImFudCI6WyJwcmVzZXJ2ZSIsImtlZXAiLCJtYWludGFpbiIsInN0YWduYXRlIiwiZml4Il19LCJ0cmVhY2hlcm91cyI6eyJzeW4iOlsiZGFuZ2Vyb3VzIiwicGVyaWxvdXMiLCJ1bnJlbGlhYmxlIiwiZGVjZXB0aXZlIiwiaGF6YXJkb3VzIiwidHJlYXNvbm91cyJdLCJhbnQiOlsic2FmZSIsInJlbGlhYmxlIiwidHJ1c3R3b3J0aHkiLCJzdGFibGUiLCJob25lc3QiXX0sInRyaWJhbCI6eyJzeW4iOlsiZXRobmljIiwiY2xhbm5pc2giLCJyYWNpYWwiLCJpbmRpZ2Vub3VzIiwicHJpbWl0aXZlIiwiY29tbXVuYWwiXSwiYW50IjpbInVuaXZlcnNhbCIsImdsb2JhbCIsImNvc21vcG9saXRhbiIsImluZGl2aWR1YWxpc3RpYyJdfSwidmFuaXR5Ijp7InN5biI6WyJwcmlkZSIsImNvbmNlaXQiLCJuYXJjaXNzaXNtIiwiZWdvIiwiYXJyb2dhbmNlIiwic2VsZi1pbXBvcnRhbmNlIl0sImFudCI6WyJodW1pbGl0eSIsIm1vZGVzdHkiLCJzZWxmbGVzc25lc3MiLCJtZWVrbmVzcyIsInVucHJldGVudGlvdXNuZXNzIl19LCJ3YXJ5Ijp7InN5biI6WyJjYXV0aW91cyIsImNhcmVmdWwiLCJ2aWdpbGFudCIsIndhdGNoZnVsIiwiY2lyY3Vtc3BlY3QiLCJsZWVyeSJdLCJhbnQiOlsidHJ1c3RpbmciLCJuYWl2ZSIsImd1bGxpYmxlIiwicmVja2xlc3MiLCJmb29saGFyZHkiXX0sIndoZXQiOnsic3luIjpbInNoYXJwZW4iLCJncmluZCIsImhvbmUiLCJlZGdlIiwic3RpbXVsYXRlIiwiYXdha2VuIl0sImFudCI6WyJibHVudCIsImR1bGwiLCJ3ZWFrZW4iLCJkaXNjb3VyYWdlIiwiZGFtcGVuIl19LCJ6ZW5pdGgiOnsic3luIjpbInBlYWsiLCJhcGV4Iiwic3VtbWl0IiwicGlubmFjbGUiLCJhY21lIiwiY2xpbWF4Il0sImFudCI6WyJuYWRpciIsImJvdHRvbSIsInRyb3VnaCIsImJhc2UiLCJsb3cgcG9pbnQiXX19"))));
+
+// ============================================================
+// REST OF THE JAVASCRIPT (DO NOT MODIFY)
+// ============================================================
+const LS = {
+  get(key, fallback) {
+    try { const v = localStorage.getItem(key); return v !== null ? v : fallback; }
+    catch(e) { return fallback; }
+  },
+  set(key, val) {
+    try { localStorage.setItem(key, val); } catch(e) {}
+  }
+};
+
+function buildGroups() {
+  const n = VOCAB.length;
+  const wordsPerGroup = 10;
+  const numGroups = Math.ceil(n / wordsPerGroup);
+  const groups = [];
+  
+  for (let i = 0; i < numGroups; i++) {
+    const start = i * wordsPerGroup;
+    const end = Math.min(start + wordsPerGroup, n);
+    groups.push(VOCAB.slice(start, end));
+  }
+  
+  return groups;
+}
+
+const GROUPS = buildGroups();
+const NUM_GROUPS = GROUPS.length;
+
+const S = {
+  gIdx: 0,
+  wIdx: 0,
+  sentTab: 0,
+  starred: new Set(JSON.parse(LS.get('wtb_starred', '[]'))),
+  sentences: JSON.parse(LS.get('wtb_sentences', '{}')),
+  quiz: null,
+  quizDone: {},
+  sqQuiz: null,
+};
+
+function saveStarred() { LS.set('wtb_starred', JSON.stringify([...S.starred])); }
+function saveSentences() { LS.set('wtb_sentences', JSON.stringify(S.sentences)); }
+
+function escReg(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+function highlightWord(text, word) {
+  const e = escReg(word);
+  const re1 = new RegExp('\\b(' + e + ')\\b', 'gi');
+  if (re1.test(text)) return text.replace(re1, '<span class="hl">$1</span>');
+  const root = escReg(word.substring(0, Math.max(4, Math.floor(word.length * 0.72))));
+  const re2 = new RegExp('\\b(' + root + '\\w*)\\b', 'gi');
+  return text.replace(re2, '<span class="hl">$1</span>');
+}
+
+function blankWord(text, word) {
+  const blank = '<span class="blank">___________</span>';
+  const e = escReg(word);
+  const re1 = new RegExp('\\b' + e + '\\b', 'gi');
+  if (re1.test(text)) return text.replace(re1, blank);
+  const root = escReg(word.substring(0, Math.max(4, Math.floor(word.length * 0.72))));
+  const re2 = new RegExp('\\b' + root + '\\w*\\b', 'gi');
+  return text.replace(re2, blank);
+}
+
+function chapterShort(ch) {
+  const m = ch.match(/Part ([IVX]+)[,\s]+Chapter (\d+)/i);
+  if (m) return 'Pt.' + m[1] + ' · Ch.' + m[2];
+  return ch;
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+let toastTimer = null;
+function toast(msg, type = '') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'show' + (type ? ' ' + type : '');
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.className = ''; }, 2200);
+}
+
+let currentAudio = null; // Track currently playing audio
+
+function speak(word) {
+  if ('speechSynthesis' in window) {
+    // If audio is playing, stop it (toggle mute)
+    if (currentAudio) {
+      window.speechSynthesis.cancel();
+      currentAudio = null;
+      return;
+    }
+    // Start new audio
+    const u = new SpeechSynthesisUtterance(word);
+    u.lang = 'en-US'; u.rate = 0.85;
+    u.onend = () => { currentAudio = null; };
+    u.onerror = () => { currentAudio = null; };
+    currentAudio = u;
+    window.speechSynthesis.speak(u);
+  }
+
+// Audio for sentences - with toggle support
+function playCurrentSentenceAudio() {
+  try {
+    const sentEn = document.getElementById('sentEn');
+    if (sentEn) {
+      let text = sentEn.textContent;
+      if (text && text !== '—') {
+        text = text.replace(/<[^>]*>/g, '');
+        if (text.trim()) {
+          if ('speechSynthesis' in window) {
+            // Toggle: if audio is playing, stop it; otherwise play
+            if (currentAudio) {
+              window.speechSynthesis.cancel();
+              currentAudio = null;
+            } else {
+              const u = new SpeechSynthesisUtterance(text);
+              u.lang = 'en-US'; u.rate = 0.85;
+              u.onend = () => { currentAudio = null; };
+              u.onerror = () => { currentAudio = null; };
+              currentAudio = u;
+              window.speechSynthesis.speak(u);
+            }
+          }
+        }
+      }
+    }
+  } catch (e) { console.error('Audio error:', e); }
+}
+}
+
+function render() {
+  if (!GROUPS.length || !GROUPS[S.gIdx] || !GROUPS[S.gIdx][S.wIdx]) {
+    console.error('No data available');
+    return;
+  }
+  
+  const group = GROUPS[S.gIdx];
+  const entry = group[S.wIdx];
+  const isStarred = S.starred.has(entry.word);
+
+  document.getElementById('groupNumDisplay').textContent = (S.gIdx + 1) + ' / ' + NUM_GROUPS;
+  document.getElementById('prevGroupBtn').disabled = S.gIdx === 0;
+  document.getElementById('nextGroupBtn').disabled = S.gIdx === NUM_GROUPS - 1;
+  renderGroupDots();
+
+  document.getElementById('wordNumDisplay').textContent = S.wIdx + 1;
+  document.getElementById('groupSizeDisplay').textContent = group.length;
+  document.getElementById('prevWordBtn').disabled = S.wIdx === 0;
+  document.getElementById('nextWordBtn').disabled = S.wIdx === group.length - 1;
+
+  const sb = document.getElementById('starBtn');
+  sb.textContent = isStarred ? '★' : '☆';
+  sb.classList.toggle('starred', isStarred);
+
+  document.getElementById('wordDisplay').textContent = entry.word;
+  document.getElementById('pronDisplay').textContent = '[' + entry.pron + ']';
+  
+  // Remove any existing badge first to prevent duplicates
+  const oldBadge = document.querySelector('#pronDisplay + .badge-pos');
+  if (oldBadge) oldBadge.remove();
+  
+  // Create new badge
+  const posBadgeEl = document.createElement('span');
+  posBadgeEl.className = 'badge badge-pos';
+  posBadgeEl.textContent = '[' + (entry.part_of_speech || '') + ']';
+  posBadgeEl.style.display = 'inline-block';
+  posBadgeEl.style.marginLeft = '8px';
+  document.getElementById('pronDisplay').insertAdjacentElement('afterend', posBadgeEl);
+  
+  document.getElementById('defEn').textContent = entry.def_en;
+  document.getElementById('defZh').textContent = entry.def_zh;
+
+  document.getElementById('tabNovel').classList.toggle('active', S.sentTab === 0);
+  document.getElementById('tabAI').classList.toggle('active', S.sentTab === 1);
+
+  let sentEn, sentZh, sentSource;
+  if (S.sentTab === 0) {
+    sentEn = highlightWord(entry.quote_en, entry.word);
+    sentZh = entry.quote_zh;
+    sentSource = '— ' + BOOK_CONFIG.author + ', <em>' + BOOK_CONFIG.bookName + '</em> · ' + entry.chapter;
+  } else {
+    sentEn = highlightWord(entry.ex_en, entry.word);
+    sentZh = entry.ex_zh;
+    sentSource = '— AI Example · Thematically aligned with <em>' + BOOK_CONFIG.bookName + '</em>';
+  }
+  document.getElementById('sentEn').innerHTML = sentEn;
+  document.getElementById('sentZh').textContent = sentZh;
+  document.getElementById('sentSource').innerHTML = sentSource;
+
+  const sa = SYNAN[entry.word] || { syn: [], ant: [] };
+  document.getElementById('synChips').innerHTML = sa.syn.map(w => `<span class="synan-chip syn">${w}</span>`).join('');
+  document.getElementById('antChips').innerHTML = sa.ant.map(w => `<span class="synan-chip ant">${w}</span>`).join('');
+  document.getElementById('synanBlock').style.display = (sa.syn.length || sa.ant.length) ? 'flex' : 'none';
+
+  const tabFlash = document.getElementById('tabFlashcard'); if (tabFlash) tabFlash.classList.toggle('active', S.sentTab === 2);
+  const flashcardContainer = document.getElementById('flashcardContainer');
+  if (flashcardContainer) {
+    flashcardContainer.style.display = S.sentTab === 2 ? 'block' : 'none';
+    if (S.sentTab === 2) renderFlashcard(); //renderFlashcard();
+  }
+  document.getElementById('sentenceContent').style.display = S.sentTab === 2 ? 'none' : 'block';
+  if (S.sentTab === 2) renderFlashcard(); //renderFlashcard();
+
+  renderStarredSection();
+  renderMySentences();
+
+  document.getElementById('quizStartDesc').textContent =
+    'Test yourself on Group ' + (S.gIdx + 1) + '. Choose the word, then spell it.';
+  const done = S.quizDone[S.gIdx];
+  const badge = document.getElementById('quizScoreBadge');
+  if (done !== undefined) {
+    badge.style.display = 'inline-block';
+    badge.textContent = done.score + ' / ' + done.total + ' correct';
+  } else {
+    badge.style.display = 'none';
+  }
+
+  const cnt = S.starred.size;
+  document.getElementById('starredCount').textContent = cnt;
+  document.getElementById('starredCountHeader').textContent = cnt;
+}
+
+function renderGroupDots() {
+  const wrap = document.getElementById('groupDots');
+  wrap.innerHTML = '';
+  for (let i = 0; i < NUM_GROUPS; i++) {
+    const d = document.createElement('div');
+    d.className = 'group-dot' +
+      (i === S.gIdx ? ' active' : '') +
+      (S.quizDone[i] !== undefined && i !== S.gIdx ? ' done' : '');
+    wrap.appendChild(d);
+  }
+}
+
+function renderStarredSection() {
+  const list = document.getElementById('starredList');
+  list.innerHTML = '';
+  if (S.starred.size === 0) {
+    list.innerHTML = '<div class="starred-empty">No starred words yet. Tap ☆ on any word to save it.</div>';
+  } else {
+    [...S.starred].forEach(word => {
+      const idx = VOCAB.findIndex(v => v.word === word);
+      if (idx === -1) return;
+      const chip = document.createElement('button');
+      chip.className = 'starred-chip';
+      chip.textContent = word;
+      chip.title = VOCAB[idx].def_en;
+      chip.addEventListener('click', () => navigateToWord(idx));
+      list.appendChild(chip);
+    });
+  }
+  renderStarredQuizStart();
+}
+
+function renderMySentences() {
+  const word = GROUPS[S.gIdx][S.wIdx].word;
+  const sents = S.sentences[word] || [];
+  const max = 3;
+
+  const counter = document.getElementById('mySentCounter');
+  counter.textContent = sents.length + ' / ' + max;
+  counter.className = 'my-sent-counter' + (sents.length >= max ? ' full' : '');
+
+  const input = document.getElementById('mySentInput');
+  const saveBtn = document.getElementById('mySentSaveBtn');
+  input.disabled = sents.length >= max;
+  saveBtn.disabled = sents.length >= max;
+  input.placeholder = sents.length >= max
+    ? 'Maximum 3 sentences saved ✓'
+    : 'Write your own sentence using "' + word + '"…';
+
+  const list = document.getElementById('mySentList');
+  list.innerHTML = '';
+  sents.forEach((text, i) => {
+    const item = document.createElement('div');
+    item.className = 'my-sent-item';
+    item.innerHTML =
+      '<span class="my-sent-num">' + (i + 1) + '</span>' +
+      '<span class="my-sent-text">' + escapeHTML(text) + '</span>' +
+      '<button class="my-sent-del" data-idx="' + i + '" title="Delete">✕</button>';
+    item.querySelector('.my-sent-del').addEventListener('click', () => deleteSentence(word, i));
+    list.appendChild(item);
+  });
+}
+
+function escapeHTML(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function addSentence() {
+  const word = GROUPS[S.gIdx][S.wIdx].word;
+  const input = document.getElementById('mySentInput');
+  const text = input.value.trim();
+  if (!text) { toast('Please write a sentence first.', ''); return; }
+  if (!S.sentences[word]) S.sentences[word] = [];
+  if (S.sentences[word].length >= 3) { toast('Max 3 sentences per word.', ''); return; }
+  const wordLower = word.toLowerCase();
+  const rootLower = wordLower.substring(0, Math.max(4, Math.floor(wordLower.length * 0.72)));
+  if (!text.toLowerCase().includes(rootLower)) {
+    toast('💡 Try to use "' + word + '" in your sentence!', '');
+  }
+  S.sentences[word].push(text);
+  saveSentences();
+  input.value = '';
+  renderMySentences();
+  toast('✓ Sentence saved!', 'good');
+}
+
+function deleteSentence(word, idx) {
+  if (!S.sentences[word]) return;
+  S.sentences[word].splice(idx, 1);
+  if (S.sentences[word].length === 0) delete S.sentences[word];
+  saveSentences();
+  renderMySentences();
+}
+
+function renderStarredQuizStart() {
+  const count = S.starred.size;
+  const canStart = count >= 5;
+  document.getElementById('sqDesc').textContent = canStart
+    ? 'Quiz yourself on all ' + count + ' starred words.'
+    : 'Keep starring words to unlock your personal quiz.';
+  document.getElementById('sqStartBtn').style.display = canStart ? 'inline-block' : 'none';
+  document.getElementById('sqUnlockHint').style.display = canStart ? 'none' : 'block';
+  document.getElementById('sqStarredCount').textContent = count;
+  document.getElementById('sqStartArea').style.display = 'block';
+  document.getElementById('sqQuestionArea').style.display = 'none';
+  document.getElementById('sqResult').style.display = 'none';
+}
+
+function startStarredQuiz() {
+  const starredWords = [...S.starred];
+  if (starredWords.length < 5) return;
+
+  const entries = starredWords
+    .map(w => VOCAB.find(v => v.word === w))
+    .filter(Boolean);
+
+  const questions = shuffle(entries);
+  S.sqQuiz = { questions, qIdx: 0, score: 0, answered: false };
+
+  document.getElementById('sqStartArea').style.display = 'none';
+  document.getElementById('sqQuestionArea').style.display = 'block';
+  document.getElementById('sqResult').style.display = 'none';
+  renderSQQuestion();
+}
+
+function renderSQQuestion() {
+  const q = S.sqQuiz;
+  const entry = q.questions[q.qIdx];
+  const total = q.questions.length;
+
+  document.getElementById('sqQNum').textContent = 'Question ' + (q.qIdx + 1) + ' / ' + total;
+  document.getElementById('sqProgressFill').style.width = ((q.qIdx / total) * 100) + '%';
+  document.getElementById('sqSentence').innerHTML = blankWord(entry.quote_en, entry.word);
+
+  const pool = [...S.starred].filter(w => w !== entry.word);
+  const starredDistractors = shuffle(pool).slice(0, 3);
+  const needed = 3 - starredDistractors.length;
+  let extra = [];
+  if (needed > 0) {
+    extra = shuffle(VOCAB.map(v => v.word).filter(w => w !== entry.word && !S.starred.has(w))).slice(0, needed);
+  }
+  const choices = shuffle([entry.word, ...starredDistractors, ...extra].slice(0, 4));
+
+  const labels = ['A', 'B', 'C', 'D'];
+  const container = document.getElementById('sqChoices');
+  container.innerHTML = '';
+  choices.forEach((word, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'choice-btn';
+    btn.innerHTML = '<span class="choice-label">' + labels[i] + '</span>' + word;
+    btn.dataset.word = word;
+    btn.addEventListener('click', () => checkSQAnswer(word, entry.word, entry.def_en));
+    container.appendChild(btn);
+  });
+
+  const fb = document.getElementById('sqFeedback');
+  fb.style.display = 'none';
+  fb.className = 'quiz-feedback';
+  document.getElementById('sqNextBtn').style.display = 'none';
+  q.answered = false;
+}
+
+function checkSQAnswer(chosen, correct, defHint) {
+  if (S.sqQuiz.answered) return;
+  S.sqQuiz.answered = true;
+
+  document.querySelectorAll('#sqChoices .choice-btn').forEach(btn => {
+    btn.disabled = true;
+    if (btn.dataset.word === correct) btn.classList.add('correct');
+    else if (btn.dataset.word === chosen && chosen !== correct) btn.classList.add('wrong');
+  });
+
+  const fb = document.getElementById('sqFeedback');
+  if (chosen === correct) {
+    S.sqQuiz.score++;
+    fb.className = 'quiz-feedback correct-fb';
+    fb.textContent = '✓ Correct! "' + correct + '" — ' + defHint.split(';')[0] + '.';
+  } else {
+    fb.className = 'quiz-feedback wrong-fb';
+    fb.textContent = '✗ The answer is "' + correct + '" — ' + defHint.split(';')[0] + '.';
+  }
+  fb.style.display = 'block';
+
+  const nextBtn = document.getElementById('sqNextBtn');
+  const isLast = S.sqQuiz.qIdx === S.sqQuiz.questions.length - 1;
+  nextBtn.textContent = isLast ? 'See Results →' : 'Next →';
+  nextBtn.style.display = 'inline-block';
+}
+
+function sqNext() {
+  const q = S.sqQuiz;
+  if (q.qIdx < q.questions.length - 1) {
+    q.qIdx++;
+    renderSQQuestion();
+  } else {
+    const total = q.questions.length;
+    const pct = Math.round((q.score / total) * 100);
+    const emoji = pct >= 80 ? '🎉' : pct >= 60 ? '👍' : '📚';
+    document.getElementById('sqQuestionArea').style.display = 'none';
+    document.getElementById('sqResult').style.display = 'block';
+    document.getElementById('sqProgressFill').style.width = '100%';
+    document.getElementById('sqResultScore').textContent = emoji + ' ' + q.score + ' / ' + total;
+    document.getElementById('sqResultLabel').textContent =
+      pct >= 80 ? 'Excellent — your starred words are solid!' :
+      pct >= 60 ? 'Good progress. Review the ones you missed.' :
+                  'Keep studying — revisit your starred words.';
+  }
+}
+
+function goGroup(idx) {
+  S.gIdx = Math.max(0, Math.min(NUM_GROUPS - 1, idx));
+  S.wIdx = 0;
+  S.sentTab = 0;
+  resetQuizUI();
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function goWord(idx) {
+  const group = GROUPS[S.gIdx];
+  S.wIdx = Math.max(0, Math.min(group.length - 1, idx));
+  S.sentTab = 0;
+  render();
+}
+
+function navigateToWord(vocabIdx) {
+  let cumulative = 0;
+  for (let g = 0; g < NUM_GROUPS; g++) {
+    if (vocabIdx < cumulative + GROUPS[g].length) {
+      S.gIdx = g;
+      S.wIdx = vocabIdx - cumulative;
+      S.sentTab = 0;
+      resetQuizUI();
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    cumulative += GROUPS[g].length;
+  }
+}
+
+function toggleStar() {
+  const word = GROUPS[S.gIdx][S.wIdx].word;
+  if (S.starred.has(word)) {
+    S.starred.delete(word);
+    toast('Removed from starred', '');
+  } else {
+    S.starred.add(word);
+    toast('⭐ Starred: ' + word, 'gold');
+  }
+  saveStarred();
+  render();
+}
+
+function resetQuizUI() {
+  S.quiz = null;
+  document.getElementById('quizBody').classList.remove('open');
+  document.getElementById('quizToggleIcon').classList.remove('open');
+  document.getElementById('quizStartArea').style.display = 'block';
+  document.getElementById('quizQuestionArea').style.display = 'none';
+  document.getElementById('quizResult').style.display = 'none';
+}
+
+function startQuiz() {
+  const group = GROUPS[S.gIdx];
+  const questions = shuffle(group.map((entry, i) => ({ entry, groupIdx: i })));
+  S.quiz = {
+    questions,
+    qIdx: 0,
+    phase: 1,
+    score: 0,
+    spellScore: 0,
+    answered: false,
+  };
+  document.getElementById('quizStartArea').style.display = 'none';
+  document.getElementById('quizQuestionArea').style.display = 'block';
+  document.getElementById('quizResult').style.display = 'none';
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = S.quiz;
+  const { entry } = q.questions[q.qIdx];
+  const total = q.questions.length;
+  const step = q.qIdx * 2 + (q.phase - 1);
+  const totalSteps = total * 2;
+
+  document.getElementById('quizQNum').textContent =
+    'Word ' + (q.qIdx + 1) + ' / ' + total + ' · ' + (q.phase === 1 ? 'Part 1: Choose' : 'Part 2: Spell');
+  document.getElementById('quizProgressFill').style.width = ((step / totalSteps) * 100) + '%';
+
+  document.getElementById('quizNextBtn').style.display = 'none';
+
+  if (q.phase === 1) {
+    document.getElementById('quizPhase1').style.display = 'block';
+    document.getElementById('quizPhase2').style.display = 'none';
+
+    document.getElementById('quizSentence').innerHTML = blankWord(entry.quote_en, entry.word);
+
+    const group = GROUPS[S.gIdx];
+    const distractors = shuffle(group.map(w => w.word).filter(w => w !== entry.word)).slice(0, 3);
+    const choices = shuffle([entry.word, ...distractors]);
+    const labels = ['A', 'B', 'C', 'D'];
+    const container = document.getElementById('quizChoices');
+    container.innerHTML = '';
+    choices.forEach((word, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'choice-btn';
+      btn.innerHTML = '<span class="choice-label">' + labels[i] + '</span>' + word;
+      btn.dataset.word = word;
+      btn.addEventListener('click', () => checkAnswer(word, entry.word));
+      container.appendChild(btn);
+    });
+
+    const fb = document.getElementById('quizFeedback');
+    fb.style.display = 'none';
+    fb.className = 'quiz-feedback';
+    q.answered = false;
+
+  } else {
+    document.getElementById('quizPhase1').style.display = 'none';
+    document.getElementById('quizPhase2').style.display = 'block';
+    renderQuizSpell(entry);
+  }
+}
+
+function renderQuizSpell(entry) {
+  const word = entry.word.toLowerCase();
+  document.getElementById('qSpellSentence').innerHTML = highlightWord(entry.ex_en, entry.word)
+    .replace(/<span class="hl">([^<]+)<\/span>/gi, '<span class="hl">_____<\/span>');
+
+  const boxes = document.getElementById('qSpellBoxes');
+  boxes.innerHTML = '';
+  for (let i = 0; i < word.length; i++) {
+    if (word[i] === '-') {
+      const sep = document.createElement('div');
+      sep.style.cssText = 'width:10px;display:flex;align-items:center;justify-content:center;color:var(--muted2);font-weight:900;font-size:1.2rem;';
+      sep.textContent = '-';
+      boxes.appendChild(sep);
+    } else {
+      const b = document.createElement('div');
+      b.className = 'spell-box' + (i === 0 ? ' cursor' : '');
+      b.dataset.idx = i;
+      boxes.appendChild(b);
+    }
+  }
+  const inp = document.getElementById('qSpellInput');
+  inp.value = '';
+  inp.placeholder = word.length + ' letters';
+  const fb = document.getElementById('qSpellFeedback');
+  fb.style.display = 'none';
+  fb.className = 'quiz-feedback';
+  document.getElementById('qSpellRevealBtn').style.display = 'block';
+  updateQSpellBoxes('');
+}
+
+function updateQSpellBoxes(typed) {
+  const entry = S.quiz.questions[S.quiz.qIdx].entry;
+  const word = entry.word.toLowerCase().replace(/-/g, '');
+  const t = typed.toLowerCase();
+  const allBoxes = document.querySelectorAll('#qSpellBoxes .spell-box');
+  allBoxes.forEach((b, i) => {
+    b.className = 'spell-box';
+    if (i < t.length) { b.textContent = t[i]; b.classList.add('filled'); }
+    else { b.textContent = ''; if (i === t.length) b.classList.add('cursor'); }
+  });
+}
+
+function checkQuizSpelling() {
+  const entry = S.quiz.questions[S.quiz.qIdx].entry;
+  const word = entry.word.toLowerCase();
+  const typed = document.getElementById('qSpellInput').value.trim().toLowerCase();
+  const fb = document.getElementById('qSpellFeedback');
+  if (!typed) { toast('Type the word first!', ''); return; }
+
+  const allBoxes = document.querySelectorAll('#qSpellBoxes .spell-box');
+  const wordClean = word.replace(/-/g, '');
+  const typedClean = typed.replace(/-/g, '');
+
+  if (typedClean === wordClean) {
+    S.quiz.spellScore++;
+    allBoxes.forEach(b => { b.className = 'spell-box correct'; });
+    fb.className = 'quiz-feedback correct-fb';
+    fb.textContent = '✓ Perfect spelling!';
+    toast('✓ Spelled correctly!', 'good');
+  } else {
+    const wordArr = wordClean.split('');
+    allBoxes.forEach((b, i) => {
+      b.className = 'spell-box';
+      const ch = typedClean[i] || '';
+      b.textContent = ch || wordArr[i];
+      if (!ch) b.classList.add('wrong');
+      else if (ch === wordArr[i]) b.classList.add('correct');
+      else { b.classList.add('wrong'); b.textContent = ch; }
+    });
+    fb.className = 'quiz-feedback wrong-fb';
+    fb.textContent = '✗ The word is "' + entry.word + '".';
+  }
+  fb.style.display = 'block';
+  document.getElementById('qSpellRevealBtn').style.display = 'none';
+  const isLast = S.quiz.qIdx === S.quiz.questions.length - 1;
+  const nextBtn = document.getElementById('quizNextBtn');
+  nextBtn.textContent = isLast ? 'See Results →' : 'Next Word →';
+  nextBtn.style.display = 'inline-block';
+}
+
+function checkAnswer(chosen, correct) {
+  if (S.quiz.answered) return;
+  S.quiz.answered = true;
+
+  const btns = document.querySelectorAll('.choice-btn');
+  btns.forEach(btn => {
+    btn.disabled = true;
+    if (btn.dataset.word === correct) btn.classList.add('correct');
+    else if (btn.dataset.word === chosen && chosen !== correct) btn.classList.add('wrong');
+  });
+
+  const fb = document.getElementById('quizFeedback');
+  if (chosen === correct) {
+    S.quiz.score++;
+    fb.className = 'quiz-feedback correct-fb';
+    fb.textContent = '✓ Correct! "' + correct + '" is right.';
+  } else {
+    // Auto-star word on wrong answer
+    S.starred.add(correct);
+    saveStarred();
+    fb.className = 'quiz-feedback wrong-fb';
+    fb.textContent = '✗ The answer is "' + correct + '".';
+  }
+  fb.style.display = 'block';
+
+  const nextBtn = document.getElementById('quizNextBtn');
+  nextBtn.textContent = 'Next: Spell It →';
+  nextBtn.style.display = 'inline-block';
+}
+
+function quizNext() {
+  const q = S.quiz;
+  const total = q.questions.length;
+  if (q.phase === 1) {
+    q.phase = 2;
+    renderQuestion();
+  } else if (q.qIdx < total - 1) {
+    q.qIdx++;
+    q.phase = 1;
+    renderQuestion();
+  } else {
+    const mcPct = Math.round((q.score / total) * 100);
+    const spPct = Math.round((q.spellScore / total) * 100);
+    const combined = q.score + q.spellScore;
+    const combMax = total * 2;
+    const emoji = mcPct >= 80 ? '🎉' : mcPct >= 60 ? '👍' : '📚';
+    document.getElementById('quizQuestionArea').style.display = 'none';
+    document.getElementById('quizResult').style.display = 'block';
+    document.getElementById('quizProgressFill').style.width = '100%';
+    document.getElementById('quizResultScore').textContent = emoji + ' ' + combined + ' / ' + combMax;
+    document.getElementById('quizResultLabel').textContent =
+      '📖 Choose: ' + q.score + '/' + total + '  ·  ✏️ Spell: ' + q.spellScore + '/' + total + (
+        mcPct >= 80 && spPct >= 80 ? '  —  Outstanding!' :
+        mcPct >= 60 ? '  —  Good work! Review the ones you missed.' :
+        '  —  Keep studying — you\'ll get there!'
+      );
+    S.quizDone[S.gIdx] = { score: combined, total: combMax };
+    render();
+  }
+}
+
+
+
+function updateBoxes(typed) {
+  const entry = GROUPS[S.gIdx][S.wIdx];
+  const word = entry.word.toLowerCase().replace(/-/g, '');
+  const t = typed.toLowerCase();
+  const allBoxes = document.querySelectorAll('.spell-box');
+
+  allBoxes.forEach((b, i) => {
+    b.className = 'spell-box';
+    if (i < t.length) {
+      b.textContent = t[i];
+      b.classList.add('filled');
+    } else {
+      b.textContent = '';
+      if (i === t.length) b.classList.add('cursor');
+    }
+  });
+}
+
+function checkSpelling() {
+  const entry = GROUPS[S.gIdx][S.wIdx];
+  const word = entry.word.toLowerCase();
+  const typed = document.getElementById('spellInput').value.trim().toLowerCase();
+  const fb = document.getElementById('spellFeedback');
+
+  if (!typed) { toast('Type the word first!', ''); return; }
+
+  const allBoxes = document.querySelectorAll('.spell-box');
+  const wordClean = word.replace(/-/g, '');
+  const typedClean = typed.replace(/-/g, '');
+
+  if (typedClean === wordClean) {
+    allBoxes.forEach(b => { b.className = 'spell-box correct'; b.textContent = b.textContent || ''; });
+    fb.className = 'spell-feedback ok';
+    fb.textContent = '✓ Correct! You spelled "' + entry.word + '" perfectly.';
+    toast('✓ Spelled correctly!', 'good');
+  } else {
+    const wordArr = wordClean.split('');
+    allBoxes.forEach((b, i) => {
+      b.className = 'spell-box';
+      const ch = typedClean[i] || '';
+      b.textContent = ch || wordArr[i];
+      if (!ch)          b.classList.add('wrong');
+      else if (ch === wordArr[i]) b.classList.add('correct');
+      else              { b.classList.add('wrong'); b.textContent = ch; }
+    });
+    fb.className = 'spell-feedback err';
+    fb.textContent = '✗ Not quite. The word is "' + entry.word + '".';
+  }
+  fb.style.display = 'block';
+  document.getElementById('spellRevealBtn').style.display = 'none';
+}
+
+document.getElementById('prevGroupBtn').addEventListener('click', () => goGroup(S.gIdx - 1));
+document.getElementById('nextGroupBtn').addEventListener('click', () => goGroup(S.gIdx + 1));
+document.getElementById('prevWordBtn').addEventListener('click', () => goWord(S.wIdx - 1));
+document.getElementById('nextWordBtn').addEventListener('click', () => goWord(S.wIdx + 1));
+document.getElementById('starBtn').addEventListener('click', toggleStar);
+  document.getElementById('speakBtn').addEventListener('click', () => speak(GROUPS[S.gIdx][S.wIdx].word));
+  const sentenceBtn = document.getElementById('sentenceHearBtn');
+  if (sentenceBtn) {
+    sentenceBtn.addEventListener('click', () => {
+      const sentEn = document.getElementById('sentEn');
+      if (sentEn) {
+        let text = sentEn.textContent;
+        if (text && text !== '—') {
+          text = text.replace(/<[^>]*>/g, '');
+          if (text.trim()) speak(text);
+        }
+      }
+    });
+  }
+document.getElementById('speakBtn2').addEventListener('click', () => speak(GROUPS[S.gIdx][S.wIdx].word));
+document.getElementById('tabNovel').addEventListener('click', () => { S.sentTab = 0; render(); });
+document.getElementById('tabAI').addEventListener('click',   () => { S.sentTab = 1; render(); });
+const tabFlashcard = document.getElementById('tabFlashcard');
+if (tabFlashcard) tabFlashcard.addEventListener('click', () => { S.sentTab = 2; flashcardState.index = 0; render(); if (document.getElementById('flashcardContainer')) renderFlashcard(); });
+document.getElementById('mySentSaveBtn').addEventListener('click', addSentence);
+document.getElementById('mySentInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') { e.preventDefault(); addSentence(); }
+});
+document.getElementById('sqStartBtn').addEventListener('click', startStarredQuiz);
+document.getElementById('sqNextBtn').addEventListener('click', sqNext);
+document.getElementById('sqRetryBtn').addEventListener('click', startStarredQuiz);
+document.getElementById('sqResetBtn').addEventListener('click', renderStarredQuizStart);
+document.getElementById('quizHeader').addEventListener('click', () => {
+  const body = document.getElementById('quizBody');
+  const icon = document.getElementById('quizToggleIcon');
+  const open = body.classList.toggle('open');
+  icon.classList.toggle('open', open);
+});
+document.getElementById('quizStartBtn').addEventListener('click', startQuiz);
+document.getElementById('quizSkipBtn').addEventListener('click', () => {
+  document.getElementById('quizBody').classList.remove('open');
+  document.getElementById('quizToggleIcon').classList.remove('open');
+});
+document.getElementById('qSpellInput').addEventListener('input', e => {
+  updateQSpellBoxes(e.target.value);
+});
+document.getElementById('qSpellInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') { e.preventDefault(); checkQuizSpelling(); }
+});
+document.getElementById('qSpellCheckBtn').addEventListener('click', checkQuizSpelling);
+document.getElementById('qSpellRevealBtn').addEventListener('click', () => {
+  const entry = S.quiz.questions[S.quiz.qIdx].entry;
+  const fb = document.getElementById('qSpellFeedback');
+  fb.className = 'quiz-feedback wrong-fb';
+  fb.textContent = 'The word is "' + entry.word + '". Try again next time!';
+  fb.style.display = 'block';
+  document.getElementById('qSpellRevealBtn').style.display = 'none';
+  const allBoxes = document.querySelectorAll('#qSpellBoxes .spell-box');
+  const wordClean = entry.word.toLowerCase().replace(/-/g,'');
+  allBoxes.forEach((b, i) => { b.className = 'spell-box wrong'; b.textContent = wordClean[i] || ''; });
+  const isLast = S.quiz.qIdx === S.quiz.questions.length - 1;
+  const nextBtn = document.getElementById('quizNextBtn');
+  nextBtn.textContent = isLast ? 'See Results →' : 'Next Word →';
+  nextBtn.style.display = 'inline-block';
+});
+document.getElementById('quizNextBtn').addEventListener('click', quizNext);
+document.getElementById('quizRetryBtn').addEventListener('click', () => {
+  document.getElementById('quizResult').style.display = 'none';
+  document.getElementById('quizStartArea').style.display = 'block';
+});
+document.getElementById('quizCloseBtn').addEventListener('click', () => {
+  document.getElementById('quizBody').classList.remove('open');
+  document.getElementById('quizToggleIcon').classList.remove('open');
+});
+document.getElementById('starredHeader').addEventListener('click', () => {
+  const body = document.getElementById('starredBody');
+  const icon = document.getElementById('starredToggleIcon');
+  const open = body.classList.toggle('open');
+  icon.classList.toggle('open', open);
+});
+document.getElementById('starredToggleBtn').addEventListener('click', () => {
+  const body = document.getElementById('starredBody');
+  const icon = document.getElementById('starredToggleIcon');
+  body.classList.add('open');
+  icon.classList.add('open');
+  document.getElementById('starredSection').scrollIntoView({ behavior: 'smooth' });
+});
+// [Spell listener removed - Spell tab replaced with Flashcard]
+// [Spell listener removed - Spell tab replaced with Flashcard]
+// // [Spell listener removed - Spell tab replaced with Flashcard] /* REMOVED - Spell tab no longer exists */
+const flashPrevBtn = document.getElementById('flashPrevBtn');
+if (flashPrevBtn) flashPrevBtn.addEventListener('click', flashcardPrev);
+const flashNextBtn = document.getElementById('flashNextBtn');
+if (flashNextBtn) flashNextBtn.addEventListener('click', flashcardNext);
+const flashStarBtn = document.getElementById('flashStarBtn');
+if (flashStarBtn) flashStarBtn.addEventListener('click', toggleFlashcardStar);
+// // [Spell listener removed - Spell tab replaced with Flashcard]
+document.addEventListener('keydown', e => {
+  const tag = document.activeElement.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+  switch(e.key) {
+    case 'ArrowRight': e.preventDefault(); goWord(S.wIdx + 1); break;
+    case 'ArrowLeft':  e.preventDefault(); goWord(S.wIdx - 1); break;
+    case 'ArrowUp':    e.preventDefault(); goGroup(S.gIdx - 1); break;
+    case 'ArrowDown':  e.preventDefault(); goGroup(S.gIdx + 1); break;
+    case 's': case 'S': toggleStar(); break;
+    case 'p': case 'P': speak(GROUPS[S.gIdx][S.wIdx].word); break;
+    case '1': S.sentTab = 0; render(); break;
+    case '2': S.sentTab = 1; render(); break;
+  }
+});
+
+// ── Print functions ──────────────────────────────────────────
+function openPrintModal() {
+  const grp = GROUPS[S.gIdx];
+  document.getElementById('printGroupLabel').textContent = 'Group ' + (S.gIdx + 1);
+  document.getElementById('printGroupCount').textContent = grp.length;
+  document.getElementById('printAllCount').textContent = VOCAB.length;
+  document.getElementById('printModal').style.display = 'block';
+}
+
+function closePrintModal() {
+  document.getElementById('printModal').style.display = 'none';
+}
+
+function doPrint() {
+  const scope = document.querySelector('input[name="printScope"]:checked').value;
+  const words = scope === 'group' ? GROUPS[S.gIdx] : VOCAB;
+  const groupLabel = scope === 'group' ? 'Group ' + (S.gIdx + 1) : 'All Words';
+
+  const rows = words.map((entry, i) => {
+    const sa = SYNAN[entry.word] || { syn: [], ant: [] };
+    const synText = sa.syn.length ? sa.syn.join(', ') : '—';
+    const antText = sa.ant.length ? sa.ant.join(', ') : '—';
+    return `
+      <div class="pe">
+        <div class="pe-head">
+          <span class="pe-num">${i + 1}</span>
+          <span class="pe-word">${entry.word}</span>
+          <span class="pe-pron">${entry.pron}</span>
+          <span class="pe-ch">${entry.chapter}</span>
+        </div>
+        <div class="pe-def">${entry.def_en}</div>
+        <div class="pe-def zh">${entry.def_zh}</div>
+        <div class="pe-synan">
+          <span class="pe-label syn">SYN</span>${synText}
+          &nbsp;&nbsp;<span class="pe-label ant">ANT</span>${antText}
+        </div>
+        <div class="pe-sent">
+          <span class="pe-sent-label">📖</span>
+          <span>${entry.quote_en}</span>
+        </div>
+        <div class="pe-sent zh">
+          <span class="pe-sent-label"></span>
+          <span>${entry.quote_zh}</span>
+        </div>
+        <div class="pe-sent ex">
+          <span class="pe-sent-label">💡</span>
+          <span>${entry.ex_en}</span>
+        </div>
+        <div class="pe-sent zh">
+          <span class="pe-sent-label"></span>
+          <span>${entry.ex_zh}</span>
+        </div>
+      </div>`;
+  }).join('');
+
+  const html = `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>${BOOK_CONFIG.bookName} — Vocabulary (${groupLabel})</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, 'Songti SC', 'SimSun', serif;
+    font-size: 9.5pt;
+    color: #111;
+    background: white;
+    padding: 14mm 12mm;
+  }
+  h1 {
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3pt;
+    letter-spacing: .02em;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 9pt;
+    color: #555;
+    margin-bottom: 12pt;
+    padding-bottom: 8pt;
+    border-bottom: 1.5pt solid #333;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 14pt;
+  }
+  .pe {
+    border-bottom: .5pt solid #ccc;
+    padding: 7pt 0 6pt;
+    break-inside: avoid;
+  }
+  .pe-head {
+    display: flex;
+    align-items: baseline;
+    gap: 5pt;
+    margin-bottom: 2pt;
+    flex-wrap: wrap;
+  }
+  .pe-num {
+    font-size: 7.5pt;
+    color: #888;
+    min-width: 16pt;
+  }
+  .pe-word {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: .01em;
+  }
+  .pe-pron {
+    font-size: 8pt;
+    color: #555;
+    font-style: italic;
+  }
+  .pe-ch {
+    font-size: 7.5pt;
+    color: #888;
+    margin-left: auto;
+  }
+  .pe-def {
+    font-size: 8.5pt;
+    color: #222;
+    margin-bottom: 1.5pt;
+    line-height: 1.4;
+  }
+  .pe-def.zh {
+    color: #444;
+    font-size: 8pt;
+    margin-bottom: 3pt;
+  }
+  .pe-synan {
+    font-size: 8pt;
+    margin-bottom: 3.5pt;
+    color: #333;
+    line-height: 1.5;
+  }
+  .pe-label {
+    font-size: 7pt;
+    font-weight: 700;
+    padding: 1pt 4pt;
+    border-radius: 3pt;
+    margin-right: 3pt;
+    letter-spacing: .04em;
+  }
+  .pe-label.syn {
+    background: #e6faf4;
+    color: #1a7a55;
+    border: .5pt solid #aadec8;
+  }
+  .pe-label.ant {
+    background: #fef0f2;
+    color: #a02040;
+    border: .5pt solid #f0b0bc;
+  }
+  .pe-sent {
+    font-size: 8pt;
+    line-height: 1.45;
+    color: #333;
+    display: flex;
+    gap: 4pt;
+    margin-top: 1.5pt;
+  }
+  .pe-sent.ex { color: #1a4a70; }
+  .pe-sent.zh { color: #555; margin-top: 1pt; }
+  .pe-sent-label {
+    font-size: 8pt;
+    min-width: 12pt;
+    flex-shrink: 0;
+  }
+  .footer {
+    position: running(footer);
+    font-size: 7.5pt;
+    color: #888;
+    text-align: center;
+  }
+  @page {
+    margin: 14mm 12mm 18mm;
+    @bottom-center { content: element(footer); }
+  }
+  @media print {
+    .footer { display: block; }
+  }
+</style>
+</head>
+<body>
+<h1>${BOOK_CONFIG.bookName} Vocabulary</h1>
+<div class="subtitle">${BOOK_CONFIG.author} &nbsp;·&nbsp; ${groupLabel} &nbsp;·&nbsp; ${words.length} words &nbsp;·&nbsp; 📖 Novel sentence &nbsp; 💡 AI example sentence</div>
+<div class="footer">${BOOK_CONFIG.bookName} — ${BOOK_CONFIG.author} &nbsp;|&nbsp; ${groupLabel}</div>
+<div class="grid">${rows}</div>
+</body>
+</html>`;
+
+  closePrintModal();
+  const win = window.open('', '_blank');
+  win.document.write(html);
+  win.document.close();
+  win.focus();
+  setTimeout(() => win.print(), 400);
+}
+
+
+let flashcardState = { side: 'word', index: 0 };
+
+function speakFlashcard() {
+  const group = GROUPS[S.gIdx];
+  const word = group[flashcardState.index].word;
+  speak(word);
+}
+
+
+
+function toggleFlashcard() {
+  const inner = document.getElementById('flashInner');
+  const label = document.getElementById('flashLabel');
+  const content = document.getElementById('flashContent');
+  
+  const group = GROUPS[S.gIdx];
+  const entry = group[flashcardState.index];
+  
+  if (flashcardState.side === 'word') {
+    flashcardState.side = 'def-en';
+    label.textContent = 'English Definition';
+    const pos = entry.part_of_speech || entry.pos || 'word';
+    content.innerHTML = '<span class="flashcard-pos">[' + pos + ']</span>' + entry.def_en;
+    content.className = 'flashcard-content flashcard-def-en';
+    inner.style.background = 'linear-gradient(160deg, rgba(26,74,112,.85), rgba(14,34,48,.95))';
+  } else if (flashcardState.side === 'def-en') {
+    flashcardState.side = 'def-zh';
+    label.textContent = 'Chinese Definition';
+    const pos2 = entry.part_of_speech || entry.pos || 'word';
+    content.innerHTML = '<span class="flashcard-pos">[' + pos2 + ']</span>' + entry.def_zh;
+    content.className = 'flashcard-content flashcard-def-zh';
+    inner.style.background = 'linear-gradient(160deg, rgba(50,34,90,.85), rgba(30,20,50,.95))';
+  } else {
+    flashcardState.side = 'word';
+    label.textContent = 'Word';
+    content.innerHTML = '<div class="flashcard-word-main">' + entry.word + '</div>' + '<div class="flashcard-pron">[' + (entry.pron || '') + ']</div>' + '<div class="flashcard-pos-display">[' + (entry.part_of_speech || '') + ']</div>' + '<button class="flashcard-hear" onclick="speakFlashcard()" data-word="' + entry.word.replace(/'/g, "\\'") + '">🔊 Hear</button>';
+    content.className = 'flashcard-content';
+    inner.style.background = 'linear-gradient(160deg, rgba(14,34,48,.85), rgba(11,27,36,.95))';
+  }
+}
+
+function renderFlashcard() {
+  const container = document.getElementById('flashcardContainer');
+  if (!container) return; // Exit if flashcard container doesn't exist
+  
+  const group = GROUPS[S.gIdx];
+  const entry = group[flashcardState.index];
+  const isStarred = S.starred.has(entry.word);
+  
+  flashcardState.side = 'word';
+  
+  const inner = document.getElementById('flashInner');
+  const label = document.getElementById('flashLabel');
+  const content = document.getElementById('flashContent');
+  
+  label.textContent = 'Word';
+  content.innerHTML = '<div class="flashcard-word-main">' + entry.word + '</div><div class="flashcard-pron">[' + (entry.pron || '') + ']</div><span class="badge badge-pos">[' + (entry.part_of_speech || '') + ']</span><button class="flashcard-hear" id="flashHearBtn" onclick="speakFlashcard()">🔊 Hear</button>';
+  content.className = 'flashcard-content';
+  inner.style.background = 'linear-gradient(160deg, rgba(14,34,48,.85), rgba(11,27,36,.95))';
+  
+  document.getElementById('flashProgress').textContent = (flashcardState.index + 1) + ' / ' + group.length;
+  document.getElementById('flashPrevBtn').disabled = flashcardState.index === 0;
+  document.getElementById('flashNextBtn').disabled = flashcardState.index === group.length - 1;
+  
+  const starBtn = document.getElementById('flashStarBtn');
+  starBtn.textContent = isStarred ? '⭐' : '☆';
+  starBtn.classList.toggle('starred', isStarred);
+}
+
+function flashcardPrev() {
+  if (flashcardState.index > 0) {
+    flashcardState.index--;
+    renderFlashcard();
+  }
+}
+
+function flashcardNext() {
+  const group = GROUPS[S.gIdx];
+  if (flashcardState.index < group.length - 1) {
+    flashcardState.index++;
+    renderFlashcard();
+  }
+}
+
+function toggleFlashcardStar() {
+  const group = GROUPS[S.gIdx];
+  const word = group[flashcardState.index].word;
+  if (S.starred.has(word)) {
+    S.starred.delete(word);
+  } else {
+    S.starred.add(word);
+  }
+  saveStarred();
+  renderFlashcard();
+}
+
+
+// Initialize
+if (VOCAB.length > 1) {
+  render();
+} else {
+  document.getElementById('wordDisplay').textContent = 'Add Data';
+  document.getElementById('defEn').textContent = 'Please paste your 100 vocabulary words into the VOCAB array.';
+}
+</script>
+
+<!-- Print Modal -->
+<div id="printModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.75); z-index:9999; overflow-y:auto; padding:20px;">
+  <div style="max-width:520px; margin:0 auto; background:var(--panel); border:1px solid var(--s35); border-radius:16px; padding:28px 24px;">
+    <h2 style="font-family:Georgia,serif; color:var(--good); margin-bottom:6px; font-size:1.3rem;">🖨️ Print Vocabulary</h2>
+    <p style="color:var(--muted); font-size:.85rem; margin-bottom:20px;">Each entry includes word, pronunciation, definitions, synonyms &amp; antonyms, and both sentences.</p>
+    <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:22px;">
+      <label style="display:flex; align-items:center; gap:10px; cursor:pointer; color:var(--text); font-weight:600; font-size:.95rem;">
+        <input type="radio" name="printScope" value="group" checked style="accent-color:var(--good); width:16px; height:16px;">
+        Current group only (<span id="printGroupLabel">Group 1</span> · <span id="printGroupCount">10</span> words)
+      </label>
+      <label style="display:flex; align-items:center; gap:10px; cursor:pointer; color:var(--text); font-weight:600; font-size:.95rem;">
+        <input type="radio" name="printScope" value="all" style="accent-color:var(--good); width:16px; height:16px;">
+        All words (<span id="printAllCount">100</span> words)
+      </label>
+    </div>
+    <div style="display:flex; gap:10px;">
+      <button onclick="doPrint()" style="flex:1; background:var(--good); color:#06131a; border:none; border-radius:10px; padding:11px; font-weight:800; font-size:.95rem; cursor:pointer;">Print / Save PDF</button>
+      <button onclick="closePrintModal()" style="flex:1; background:var(--panel2); color:var(--muted); border:1px solid var(--s35); border-radius:10px; padding:11px; font-weight:700; font-size:.95rem; cursor:pointer;">Cancel</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
